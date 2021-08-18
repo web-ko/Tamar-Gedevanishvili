@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ClarendonBlkBTBlack';
+    src: url('fonts/ClarendonBlkBTBlack.eot');
+    src: url('fonts/ClarendonBlkBTBlack.eot') format('embedded-opentype'),
+         url('fonts/ClarendonBlkBTBlack.woff2') format('woff2'),
+         url('fonts/ClarendonBlkBTBlack.woff') format('woff'),
+         url('fonts/ClarendonBlkBTBlack.ttf') format('truetype'),
+         url('fonts/ClarendonBlkBTBlack.svg#ClarendonBlkBTBlack') format('svg');
+}
