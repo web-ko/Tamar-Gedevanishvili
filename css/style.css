@@ -8237,11 +8237,11 @@ ul{
                 transform: translateY(2px);
     }
 }
-@media(max-width: 378px){
+@media(max-width: 379px){
     #wrapper{
-        -webkit-transform: translateY(4px);
-            -ms-transform: translateY(4px);
-                transform: translateY(4px);
+        -webkit-transform: translateY(3px);
+            -ms-transform: translateY(3px);
+                transform: translateY(3px);
     }
 }
 @media(max-width: 360px){
