@@ -8237,7 +8237,7 @@ ul{
                 transform: translateY(2px);
     }
 }
-@media(max-width: 369px){
+@media(max-width: 376px){
     #wrapper{
         -webkit-transform: translateY(4px);
             -ms-transform: translateY(4px);
