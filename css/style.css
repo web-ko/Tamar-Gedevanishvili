@@ -258,9 +258,9 @@ ul{
 }
 .pic-aso{
     position: relative;
-    width: 25.3%;
-    margin-left: 1.2%;
-    margin-top: 3.5%;
+    width: 25.3%!important;
+    margin-left: 1.2%!important;
+    margin-top: 3.5%!important;
 }
 .picaso{
     width: 100%;
@@ -315,9 +315,9 @@ ul{
 }
 .akv-14{
     position: relative;
-    width: 17.2%;
-    margin-top: 11.12%;
-    margin-left: 8.5%;
+    width: 17.2%!important;
+    margin-top: 11.12%!important;
+    margin-left: 8.5%!important;
 }
 .akvareli-14{
     width: 100%;
@@ -370,8 +370,8 @@ ul{
 }
 .ka-ci{
     position: relative;
-    margin-top: 7.5%;
-    margin-left: 9.3%;
+    margin-top: 7.5%!important;
+    margin-left: 9.3%!important;
 }
 .kaci{
     width: 100%;
