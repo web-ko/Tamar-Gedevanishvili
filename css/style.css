@@ -48,6 +48,9 @@ ul{
     text-decoration-thickness: 1px;
     text-underline-offset: 10px;
 }
+section img{
+    height: 100%;
+}
 #baguetteBox-overlay{
   display: none;
   opacity: 0;
@@ -8180,7 +8183,6 @@ ul{
         width: 100%;
         margin-left: 0;
         margin-top: var(--bs-gutter-y);
-        margin-bottom: var(--bs-gutter-y);
     }
     .akva-28-h-h5, .akva-28-h-h5-b{
         font-size: 4.5vw;
@@ -8201,54 +8203,26 @@ ul{
         width: 65vw;
     }
     #wrapper {
-        -webkit-transform: translateY(3px);
-            -ms-transform: translateY(3px);
-                transform: translateY(3px);
+        -webkit-transform: translateY(2px);
+            -ms-transform: translateY(2px);
+                transform: translateY(2px);
     }
     .gy-4{
        --bs-gutter-y: 1rem;
     }
 }
-@media(max-width: 414px){
-    #wrapper {
-        -webkit-transform: translateY(4px);
-            -ms-transform: translateY(4px);
-                transform: translateY(4px);
-    }
-}
-@media(max-width: 411px){
-    #wrapper {
-        -webkit-transform: translateY(2px);
-            -ms-transform: translateY(2px);
-                transform: translateY(2px);
-    }
-}
-@media(max-width: 379px){
+@media(max-width: 375px){
     #wrapper{
         -webkit-transform: translateY(3px);
             -ms-transform: translateY(3px);
                 transform: translateY(3px);
     }
 }
-@media(max-width: 376px){
-    #wrapper{
-        -webkit-transform: translateY(4px);
-            -ms-transform: translateY(4px);
-                transform: translateY(4px);
-    }
-}
-@media(max-width: 375px){
-    #wrapper{
-        -webkit-transform: translateY(4px);
-            -ms-transform: translateY(4px);
-                transform: translateY(4px);
-    }
-}
 @media(max-width: 372px){
     #wrapper{
-        -webkit-transform: translateY(2px)!important;
-            -ms-transform: translateY(2px)!important;
-                transform: translateY(2px)!important;
+        -webkit-transform: translateY(2px);
+            -ms-transform: translateY(2px);
+                transform: translateY(2px);
     }
 }
 @media(max-width: 360px){
@@ -8256,9 +8230,9 @@ ul{
         width: 63vw;
     }
     #wrapper {
-        -webkit-transform: translateY(3px)!important;
-            -ms-transform: translateY(3px)!important;
-                transform: translateY(3px)!important;
+        -webkit-transform: translateY(2px);
+            -ms-transform: translateY(2px);
+                transform: translateY(2px);
     }
 }
 @media(max-width:340px){
