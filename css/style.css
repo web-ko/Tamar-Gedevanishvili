@@ -62,7 +62,7 @@ section img{
   height: 100%;
   z-index: 1000000;
   background-color: #222;
-  background-color: rgba(255, 255, 255, 0.7)!important;
+  background-color: rgba(245, 245, 245, 1)!important;
   -webkit-transition: opacity .1s ease;
   -o-transition: opacity .1s ease;
   transition: opacity .1s ease;
@@ -7165,7 +7165,35 @@ section img{
         font-size: 1.3vw;
     }
 }
+@media(max-width: 1200px){
+    #next-button, #close-button{
+        margin-right: -10px;
+    }
+    #previous-button{
+        margin-left: -10px;
+    }
+}
+@media(min-width: 992px){
+    .work-gallery .container{
+        max-width: 100%;
+    }
+    .work-gallery .water-2-h{
+        display: none;
+    }
+}
 @media(max-width: 991px){
+    .image div{
+        display: none;
+    }
+    .work-gallery .container{
+        margin-top: 3rem;
+    }
+    #next-button, #previous-button{
+        display: none;
+    }
+    .work-gallery a{
+        text-decoration: none;
+    }
     .pic-aso{
         width: 100%;
         margin-left: 0;
@@ -8183,6 +8211,7 @@ section img{
         width: 100%;
         margin-left: 0;
         margin-top: var(--bs-gutter-y);
+        margin-bottom: 1.5rem;
     }
     .akva-28-h-h5, .akva-28-h-h5-b{
         font-size: 4.5vw;
@@ -8244,4 +8273,7 @@ section img{
     #wrapper{
         width: 16vw;
     }
+}
+.row-marg-bott{
+    margin-bottom: 1.5rem;
 }
