@@ -1,43 +1,166 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>tamar gedevanishvili - landing-page</title>
+	<title>Tamar Gedevanishvili - Home</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/style-landing.css">
 </head>
-<body class="landing-color">
-	<header id="navigation" class="container-fluid fixed-top">
-		<nav class="navbar navbar-expand-xl navbar-light">
-			<div class="container-fluid">
-				<a class="navbar-brand logo" href="works.html"><img class="logo-white" src="img/logo-white.svg"></a>
-			</div>
-		</nav>
-	</header>
-	<div class="container">
-		<div class="row landing-page">
-			<div class="col-md-12 col-lg-9 col-xl-7 col-xxl-8 landing-page-c">
-				<a id="randimg" href="works.html"></a>
+<body>
+	<header id="header" class="header d-flex align-items-center">
+		<div class="container-fluid for_border">
+		    <div class="container-fluid container-xl d-flex align-items-center justify-content-between fixed-top">
 
+		      <a href="index.html" class="logo d-flex align-items-center">
+		        <!-- Uncomment the line below if you also wish to use an image logo -->
+		        <!-- <img src="assets/img/logo.png" alt=""> -->
+		        <img class="logo-black" src="img/logo-black.svg">
+		      </a>
+
+		      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+		      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+		      <nav id="navbar" class="navbar">
+		      	<div class="navbar_overlay"></div>
+		      	<ul>
+		          <li><a href="index.html" class="active">Home</a></li>
+		          <li class="dropdown"><a href="javascript:void(0)"><span>Projects</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+		            <ul>
+		            	<span></span>
+			            <li><a href="improper_intersections.html">Improper Intersections</a></li>
+			            <li><a href="our_times.html">Our Times</a></li>
+			            <li><a href="connections.html">Connections</a></li>
+			            <li><a href="free-city.html">Free City</a></li>
+		            </ul>
+		          </li>
+		          <li><a href="graphic.html">Graphic</a></li>
+		          <li><a href="services.html">Services</a></li>
+		          <li><a href="blog.html">Blog</a></li>
+		          
+		          <li><a href="contact.html">Contact</a></li>
+		        </ul>
+		      </nav><!-- .navbar -->
+
+		    </div>
+	    </div>
+  	</header><!-- End Header -->
+	<section class="home-gallery">
+		<div class="home_container">
+			<div class="home_container_row">
+				<div class="home_container_col">
+					<div>
+						<img src="img/20210801.webp">
+					</div>
+				</div>
+				<div class="home_container_col">
+					<div>
+						<h6>ARTIST</h6>
+						<h5>TAMAR<br>GEDEVANISHVILI</h5>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
+		<div class="bio_container">
+			<div class="bio_container_row">
+				<div class="bio_container_col">
+					<h5>BIOGRAPHY OF THE ARTIST</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="big-picture">
+						<img src="img/20220425.webp">
+					</div>
+					<p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud”.</p>
+					<h5>TAMAR GEDEVANISHVILI</h5>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="video-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-6">
+					<div class="video">
+						<iframe width="1271" height="715" src="https://www.youtube.com/embed/5hbDiUO0qXw" title="#დღისკოდი  „შეუსაბამო გადაკვეთები“ - სტუმარი: თამარ გედევანიშვილი - მხატვარი" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+					<div class="video_text">
+						<p>Improper Intersections - Tamar Gedevanishvili</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-6">
+					<div class="video">
+						<iframe width="1271" height="715" src="https://www.youtube.com/embed/XK1-pve91Lk" title="#დღისკოდი რა არის კულტურა - მხატვრის თამარ გედევანიშვილის მოსაზრება, ელენე ჩიტალაძის სიუჟეტში" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+					<div class="video_text">
+						<p>About Culture - Tamar Gedevanishvili</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-6">
+					<div class="video">
+						<iframe width="1271" height="715" src="https://www.youtube.com/embed/1zq8UQ2OtC4" title="სტუდიო ვიზიტი - თამარ გედევანიშვილი" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+					<div class="video_text">
+						<p>Studio Visit - Tamar Gedevanishvili</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<h5>PRIVACY POLICY</h5>
+						<p>All media files on this website are the intellectual property of artist Tamar Gedevanishvili. If you would like to use any of these materials for your business or personal use, please contact us to obtain permission from the artist.</p>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div>
+						<h5>CONTACT</h5>
+						<ul>
+							<li>Phone: 
+								<a href="tel:+995577410717">(+995) 599270979</a>
+							</li>
+							<li>
+								Email:
+								<a href="mailto:tamgedevani@gmal.com">tamgedevani@gmal.com</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/gedevanishvilit/?fbclid=IwAR38-J26NKYZy-R4wkIrW2jXMquZDOJsfrpLxbARvC4oGeoFTAgaTBeFszA" target="blank"><i class="fa-brands fa-instagram"></i></a>
+								<a href="#;"><i class="fa-brands fa-facebook"></i></a>
+							</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- <p class="footer">COPYRIGHT © 2023 TAMAR GEDEVANISHVILI - ALL RIGHTS RESERVED.</p> -->
+	</footer>
 
-	
 
 
 
 
-	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/baguetteBox.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+
+
 
 </body>
 </html>
