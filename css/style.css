@@ -537,7 +537,7 @@ footer p{
     font-style: italic;
 }
 @media(max-width: 575px){
-    .inter_head .container{
+    .inter_head .container, .our_head .container, .connections_head .container, .free_city_head .container, .work-gallery .container{
         padding: 5rem 1.3rem 0 1.3rem;
     }
     .contact-gallery .row div:nth-child(2){
