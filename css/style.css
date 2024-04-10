@@ -540,6 +540,12 @@ footer p{
     .inter_head .container, .our_head .container, .connections_head .container, .free_city_head .container, .work-gallery .container{
         padding: 5rem 1.3rem 0 1.3rem;
     }
+    .home-gallery, .inter_head, .our_head, .free_city_head, .connections_head {
+        padding: 5rem 0 0 0;
+    }
+    .work-gallery {
+        padding: 3rem 0 0 0;
+    }
     .contact-gallery .row div:nth-child(2){
         margin-top: 5rem;
     }
