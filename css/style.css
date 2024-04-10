@@ -536,7 +536,7 @@ footer p{
     text-align: right;
     font-style: italic;
 }
-@media(max-width: 575px){
+/*@media(max-width: 575px){
     .inter_head .container, .our_head .container, .connections_head .container, .free_city_head .container, .work-gallery .container{
         padding: 5rem 1.3rem 0 1.3rem;
     }
@@ -552,7 +552,7 @@ footer p{
     .contact-gallery .container{
         --bs-gutter-x: 2.5rem;
     }
-}
+}*/
 @media(min-width: 576px){
     .inter_head .container{
         padding: 5rem 1.3rem 0 1.3rem;
@@ -1062,6 +1062,21 @@ footer p{
     }
 }
 @media(max-width: 575px){
+    .inter_head .container, .our_head .container, .connections_head .container, .free_city_head .container, .work-gallery .container{
+        padding: 5rem 1.3rem 0 1.3rem;
+    }
+    .home-gallery, .inter_head, .our_head, .free_city_head, .connections_head {
+        padding: 5rem 0 0 0;
+    }
+    .work-gallery {
+        padding: 3rem 0 0 0;
+    }
+    .contact-gallery .row div:nth-child(2){
+        margin-top: 5rem;
+    }
+    .contact-gallery .container{
+        --bs-gutter-x: 2.5rem;
+    }
     p, .under_title, .fiesta_head .under_title{
         font-size: .875rem;
     }
@@ -1080,6 +1095,9 @@ footer p{
     }
     .home_container_row, .bio_container_row {
         margin: 5rem 1.3rem 0rem 1.3rem;
+    }
+    .video-wrapper .container {
+        padding: 0 1.3rem 0 1.3rem;
     }
 }
 @media(max-width: 480px){
