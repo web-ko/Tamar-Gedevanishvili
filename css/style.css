@@ -606,6 +606,9 @@ footer p{
         -o-object-position: 0 5px;
            object-position: 0 5px;
     }
+    .home_container .home_container_col:nth-child(1) img:nth-child(2){
+        display: none;
+    }
 }
 .akva-28{
     margin-bottom: 6rem;
@@ -1059,6 +1062,9 @@ footer p{
     }
     .video-wrapper .container .row .col-12:nth-child(2){
         margin-top: 3rem;
+    }
+    .home_container .home_container_col:nth-child(1) img:nth-child(1){
+        display: none;
     }
 }
 @media(max-width: 575px){
