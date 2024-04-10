@@ -594,14 +594,14 @@ footer p{
         padding-left: 0;
         border-bottom: 1px solid;
     }
-    .home_container_col:nth-child(1) div{
+    /*.home_container_col:nth-child(1) div{
         width: 50vw;
         height: 33vw;
     }
     .home_container_col:nth-child(1) img{
         -o-object-fit: cover;
            object-fit: cover;
-    }
+    }*/
     .love-in-vain .kaci{
         -o-object-position: 0 5px;
            object-position: 0 5px;
