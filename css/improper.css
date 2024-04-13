@@ -1,0 +1,59 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media(min-width: 768px){
+    .inter_head .container{
+        max-width: 720px;
+        padding: 5rem 1rem 0 1rem;
+    }
+}
+@media(min-width: 992px){
+    .inter_head .container{
+        max-width: 800px;
+        padding: 5rem 1rem 0 1rem;
+    }
+    .my-video {
+        width: 1280px;
+        height: 642px;
+        /*height: 484px;*/
+    }
+}
+@media(min-width: 1200px){
+    .inter_head .container{
+        max-width: 1020px;
+        padding: 5rem 1rem 0 1rem;
+    }
+}
+@media(min-width: 1400px){
+    .inter_head .container{
+        max-width: 1020px;
+        padding: 5rem 1rem 0 1rem;
+    }
+}
+@media(max-width: 767px){
+    .container-improper .row{
+        --bs-gutter-y: 1.5rem;
+    }
+    .inter_head img {
+        margin-top: 0!important;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+}
+
+.container-improper .col-12:nth-child(4), .container-improper .col-12:nth-child(7), .container-improper .col-12:nth-child(10){
+    margin-top: 3rem;
+}
+.video-container {
+    margin-top: 1rem;
+}
+.inter_head img {
+    width: 100%;
+    margin-top: 1rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
