@@ -8,13 +8,13 @@
 @media(min-width: 768px){
     .inter_head .container{
         max-width: 720px;
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem .75rem 0 .75rem;
     }
 }
 @media(min-width: 992px){
     .inter_head .container{
         max-width: 800px;
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem .75rem 0 .75rem;
     }
     .my-video {
         width: 1280px;
@@ -25,13 +25,13 @@
 @media(min-width: 1200px){
     .inter_head .container{
         max-width: 1020px;
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem .75rem 0 .75rem;
     }
 }
 @media(min-width: 1400px){
     .inter_head .container{
         max-width: 1020px;
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem .75rem 0 .75rem;
     }
 }
 @media(max-width: 767px){
