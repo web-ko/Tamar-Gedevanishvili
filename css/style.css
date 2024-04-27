@@ -715,17 +715,18 @@ footer p{
 
 
     /*my dropdown*/
-    .navbar .dropdown ul span{
+    .navbar .dropdown ul::before{
+        content: "";
         position: absolute;
         width: 75px;
         height: 20px;
         top: -20px;
         background: transparent;
     }
-    .navbar .dropdown:nth-child(3) ul span{
+    .navbar .dropdown:nth-child(3) ul::before{
         width: 63px;
     }
-    .navbar .dropdown:nth-child(4) ul span{
+    .navbar .dropdown:nth-child(4) ul::before{
         width: 97px;
     }
     .navbar .dropdown:hover>ul {
