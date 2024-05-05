@@ -46,9 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-
-
-
   function mobileNavToogle() {
     document.querySelector('body').classList.toggle('mobile-nav-active');
     mobileNavShow.classList.toggle('d-none');
@@ -90,6 +87,13 @@ document.addEventListener('DOMContentLoaded', () => {
         dropDownIndicator.classList.toggle('bi-chevron-down');
       }
     })
+  });
+
+
+  $(".mobile-nav-hide, .navbar_overlay").click(function(){
+    $(".dropdown-active").removeClass("dropdown-active");
+    $(".dropdown-indicator").removeClass('bi-chevron-up');
+    $(".dropdown-indicator").addClass('bi-chevron-down');
   });
 
 
