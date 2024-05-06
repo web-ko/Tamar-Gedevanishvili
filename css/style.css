@@ -115,9 +115,13 @@ section img{
     box-shadow: none;
     cursor: auto;
 }
-.renov-open.baguetteBox-open #baguette-img-13 img, .renov-open.baguetteBox-open #baguette-img-14 img, .renov-open.baguetteBox-open #baguette-img-15 img {
+.renov-open.baguetteBox-open #baguette-img-13 img, .renov-open.baguetteBox-open #baguette-img-14 img{
     -webkit-filter: grayscale(1);
             filter: grayscale(1);
+}
+.renov-open.baguetteBox-open #baguette-img-15 img{
+    -webkit-filter: grayscale(1) contrast(1.2);
+            filter: grayscale(1) contrast(1.2);
 }
 .baguetteBox-button{
   position: absolute;
@@ -292,8 +296,8 @@ footer ul li:nth-child(3){
 .our_head .row div:nth-child(8), .our_head .row div:nth-child(10){
     margin-top: 1.5rem;
 }
-.our_head .row div:nth-child(9){
-    margin-top: .6rem;
+.renov_head .row div:nth-child(9){
+    margin-top: 1rem;
 }
 .renov_head .row div:nth-child(15){
     margin-top: .6rem!important;
@@ -301,9 +305,7 @@ footer ul li:nth-child(3){
 /*.fiesta_head .row div:nth-child(8){
     margin-top: 1rem;
 }*/
-.our_head .row div:nth-child(14), .our_head .row div:nth-child(15){
-    margin-top: 3rem;
-}
+
 .fiesta_head .row div:nth-child(14), .fiesta_head .row div:nth-child(15){
     margin-top: 1.5rem;
 }
@@ -494,12 +496,19 @@ footer ul li:nth-child(3){
     -o-object-fit: cover;
        object-fit: cover;
 }
-.renov_head .row div:nth-child(18) img, .renov_head .row div:nth-child(19) img, .renov_head .row div:nth-child(20) img{
+.renov_head .row div:nth-child(18) img, .renov_head .row div:nth-child(19) img{
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     -webkit-filter: grayscale(1);
             filter: grayscale(1);
+}
+.renov_head .row div:nth-child(20) img{
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-filter: grayscale(1) contrast(1.2);
+            filter: grayscale(1) contrast(1.2);
 }
 /*.free_city_head .div-col-1 p, .free_city_head .div-col-4 p, .free_city_head .div-col-8 p{
     margin-bottom: 0;
@@ -643,8 +652,17 @@ footer p{
     .home_container .home_container_col:nth-child(1) img:nth-child(2){
         display: none;
     }
-    .renov_head .row div:nth-child(10), .renov_head .row div:nth-child(16), .renov_head .row div:nth-child(17){
+    .renov_head .row div:nth-child(16), .renov_head .row div:nth-child(17){
         margin-top: .6rem;
+    }
+    .renov_head .row div:nth-child(10){
+        margin-top: 1rem;
+    }
+    .our_head .row div:nth-child(14), .our_head .row div:nth-child(15){
+        margin-top: 3rem;
+    }
+    .renov_head .row div:nth-child(14){
+        margin-top: 2rem;
     }
 }
 .akva-28{
