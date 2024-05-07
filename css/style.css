@@ -165,7 +165,7 @@ section img{
         -ms-flex-pack: center;
             justify-content: center;
 }
-.bio_container p:nth-child(3), .bio_container p:nth-child(5), .bio_container p:nth-child(6), /*.bio_container p:nth-child(7),*/ .bio_container p:nth-child(8), .bio_container p:nth-child(9), .bio_container p:nth-child(10), .bio_container p:nth-child(11), .bio_container p:nth-child(12), .bio_container p:nth-child(13), .bio_container p:nth-child(14){
+.bio_container p:nth-child(3), .bio_container p:nth-child(5), /*.bio_container p:nth-child(6),*/ .bio_container p:nth-child(7), .bio_container p:nth-child(8), .bio_container p:nth-child(9), .bio_container p:nth-child(10), .bio_container p:nth-child(11), .bio_container p:nth-child(12), .bio_container p:nth-child(13), .bio_container p:nth-child(14){
     margin-bottom: 0;
 }
 .renovation{
@@ -215,7 +215,6 @@ section img{
     margin-top: 1rem;
 }
 footer section{
-    margin-top: 12rem;
     padding: 0;
     background-color: #000;
 }
@@ -290,18 +289,18 @@ footer ul li:nth-child(3){
 /*.our_head .row div{
     margin-top: 1rem;
 }*/
-.our_head .row div:nth-child(1){
-    margin-top: .75rem;
-}
+/*.our_head .row div:nth-child(1){
+    margin-top: 1rem;
+}*/
 .our_head .row div:nth-child(8), .our_head .row div:nth-child(10){
     margin-top: 1.5rem;
 }
 .renov_head .row div:nth-child(9){
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
-.renov_head .row div:nth-child(15){
+/*.renov_head .row div:nth-child(15){
     margin-top: .6rem!important;
-}
+}*/
 /*.fiesta_head .row div:nth-child(8){
     margin-top: 1rem;
 }*/
@@ -309,9 +308,9 @@ footer ul li:nth-child(3){
 .fiesta_head .row div:nth-child(14), .fiesta_head .row div:nth-child(15){
     margin-top: 1.5rem;
 }
-.fiesta_head .row div:nth-child(17){
+/*.fiesta_head .row div:nth-child(17){
     margin-top: .6rem;
-}
+}*/
 .fiesta_head .row div:nth-child(18){
     margin-top: 3rem;
 }
@@ -476,7 +475,7 @@ footer ul li:nth-child(3){
 }
 .inter_head img{
     width: 100%;
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
 }
 .openSatura{
     /*filter: saturate(.8);*/
@@ -652,19 +651,19 @@ footer p{
     .home_container .home_container_col:nth-child(1) img:nth-child(2){
         display: none;
     }
-    .renov_head .row div:nth-child(16), .renov_head .row div:nth-child(17){
+    /*.renov_head .row div:nth-child(16), .renov_head .row div:nth-child(17){
         margin-top: .6rem;
-    }
-    .renov_head .row div:nth-child(10){
-        margin-top: 1rem;
-    }
+    }*/
     .our_head .row div:nth-child(14), .our_head .row div:nth-child(15){
         margin-top: 3rem;
     }
-    .renov_head .row div:nth-child(14){
-        margin-top: 2rem;
+    .fiesta_head .row div:nth-child(14), .fiesta_head .row div:nth-child(15){
+        margin-top: 1.5rem;
     }
 }
+.renov_head .row div:nth-child(14){
+        margin-top: 2.5rem;
+    }
 .akva-28{
     margin-bottom: 6rem;
 }
@@ -709,6 +708,9 @@ footer p{
     }
     .gall {
         --bs-gutter-x: 4rem;
+    }
+    footer section{
+        margin-top: 12rem;
     }
 }
 @media(min-width: 1200px){
@@ -1071,6 +1073,12 @@ footer p{
         width: 1280px;
         height: 520px;
     }
+    footer section{
+        margin-top: 8rem;
+    }
+}
+.connections_head .row .col-12:nth-child(5) p, .connections_head .row .col-12:nth-child(8) p, .free_city_head .row .col-12:nth-child(4) p, .free_city_head .row .col-12:nth-child(8) p, .free_city_head .row .col-12:nth-child(12) p, .kipsidze_head .row .col-12:nth-child(3) p, .kipsidze_head .row .col-12:nth-child(7) p, .fiesta_head .row .col-12:nth-child(5) p, .fiesta_head .row .col-12:nth-child(16) p, .our_head .row .col-12:nth-child(4) p, .our_head .row .col-12:nth-child(11) p, .renov_head .row .col-12:nth-child(8) p{
+    margin-top: 1rem;
 }
 @media(max-width: 940px){
     .contact-gallery .row div:nth-child(2) {
@@ -1110,7 +1118,7 @@ footer p{
     }
     .video-wrapper .video iframe {
         width: 100%;
-        height: 47vw;
+        height: 48vw;
     }
     footer .container{
         max-width: 720px;
@@ -1204,9 +1212,9 @@ footer p{
             -ms-transform: translateY(2px);
                 transform: translateY(2px);
     }*/
-    .gy-4{
+    /*.gy-4{
        --bs-gutter-y: 1rem;
-    }
+    }*/
 }
 @media(max-width: 375px){
     /*#wrapper{

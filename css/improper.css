@@ -18,8 +18,11 @@
     }
     .my-video {
         width: 1280px;
-        height: 642px;
+        height: 648px;
         /*height: 484px;*/
+    }
+    footer section{
+        margin-top: 8rem;
     }
 }
 @media(min-width: 1200px){
@@ -39,21 +42,25 @@
         --bs-gutter-y: 1.5rem;
     }
     .inter_head img {
-        margin-top: 0!important;
         -o-object-fit: cover;
            object-fit: cover;
+    }
+    footer section{
+        margin-top: 6rem;
+    }
+    .container-improper .col-12:nth-child(12){
+        margin-top: 2.5rem;
     }
 }
 
 .container-improper .col-12:nth-child(4), .container-improper .col-12:nth-child(7), .container-improper .col-12:nth-child(10){
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 .video-container {
-    margin-top: 1rem;
+    margin-top: 0;
 }
 .inter_head img {
     width: 100%;
-    margin-top: 1rem;
     -o-object-fit: cover;
        object-fit: cover;
 }
