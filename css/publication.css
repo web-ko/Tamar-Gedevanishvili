@@ -1,0 +1,73 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.public_head svg, .svg-div{
+    width: 50px;
+}
+.public_head .col-12:nth-child(1) p{
+    margin-top: 1rem;
+}
+.public_head .col-12:nth-child(2) p{
+    margin-bottom: .4rem;
+    font-weight: 700;
+}
+.public_head .col-12:nth-child(3){
+    margin-top: 1rem;
+}
+.public_head .col-12:nth-child(5) p{
+    margin-bottom: .4rem;
+    font-weight: 700;
+}
+.public_head .col-12:nth-child(5){
+    margin-top: 1.5rem;
+}
+.public_head .col-12:nth-child(2) a p{
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #0064ff;
+}
+.public_head .col-12:nth-child(4) p{
+    margin-bottom: 0;
+}
+.public_head .row .col-12:nth-child(4) p:nth-child(1){
+    margin-top: 0;
+    font-weight: 700;
+    color: #0064ff;
+}
+.public_head .row .col-12:nth-child(4) a p{
+    margin-top: 0;
+}
+/*.public_head .col-12:nth-child(4) a p{
+    margin-top: 0!important;
+    font-weight: 700;
+    color: #0064ff;
+}*/
+.public_head .row .col-12:nth-child(5) a p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #0064ff;
+}
+.public_head .row .col-12:nth-child(6){
+    margin-top: 1rem;
+}
+.public_head .col-12:nth-child(4){
+    margin-top: 5rem;
+}
+.read-more-text {
+    display: none;
+}
+.read-more-text--show {
+    display: inline;
+}
+.read-more-btn{
+    font-weight: 700;
+    cursor: pointer;
+}
+.read_more p{
+    margin-bottom: 0;
+}
