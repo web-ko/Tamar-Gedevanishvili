@@ -165,7 +165,7 @@ section img{
         -ms-flex-pack: center;
             justify-content: center;
 }
-.bio_container p:nth-child(3), .bio_container p:nth-child(5), /*.bio_container p:nth-child(6),*/ .bio_container p:nth-child(7), .bio_container p:nth-child(8), .bio_container p:nth-child(9), .bio_container p:nth-child(10), .bio_container p:nth-child(11), .bio_container p:nth-child(12), .bio_container p:nth-child(13), .bio_container p:nth-child(14){
+.bio_container p:nth-child(3), .bio_container p:nth-child(5), /*.bio_container p:nth-child(6),*/ .bio_container p:nth-child(7), .bio_container p:nth-child(8), .bio_container p:nth-child(9), .bio_container p:nth-child(10), .bio_container p:nth-child(11), .bio_container p:nth-child(12), .bio_container p:nth-child(13), .bio_container p:nth-child(14), .bio_container p:nth-child(15), .bio_container p:nth-child(16){
     margin-bottom: 0;
 }
 .renovation{
