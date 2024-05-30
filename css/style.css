@@ -25,10 +25,14 @@ a:hover {
     /*color: #000;*/
     text-decoration: none;
 }
+.header {
+    padding: 0;
+}
 .for_border{
     position: fixed;
     border-bottom: 1px solid #d9d9d9;
-    padding: 41.5px 0;
+    /*padding: 41.5px 0;*/
+    padding: 71.5px 0;
 }
 .fixed-top{
     padding: 15px 15px;
@@ -904,7 +908,8 @@ footer p{
 }
 @media (max-width: 1279px){
     .for_border{
-        padding: 40px 0;
+        /*padding: 40px 0;*/
+        padding: 70px 0;
     }
     .navbar_overlay {
         visibility: hidden;
