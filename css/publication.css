@@ -91,7 +91,7 @@
     display: none;
 }
 .read-less-btn.show{
-    display: block;
+    display: inline;
     font-weight: bold;
     cursor: pointer;
 }
