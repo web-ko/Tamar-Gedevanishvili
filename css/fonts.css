@@ -1,11 +1,47 @@
 @font-face {
     font-family: 'ClarendonBlkBTBlack';
-    src: url('fonts/ClarendonBlkBTBlack.eot');
-    src: url('fonts/ClarendonBlkBTBlack.eot') format('embedded-opentype'),
-         url('fonts/ClarendonBlkBTBlack.woff2') format('woff2'),
-         url('fonts/ClarendonBlkBTBlack.woff') format('woff'),
-         url('fonts/ClarendonBlkBTBlack.ttf') format('truetype'),
-         url('fonts/ClarendonBlkBTBlack.svg#ClarendonBlkBTBlack') format('svg');
+    src: url('../fonts/ClarendonBlkBTBlack.eot');
+    src: url('../fonts/ClarendonBlkBTBlack.eot') format('embedded-opentype'),
+         url('../fonts/ClarendonBlkBTBlack.woff2') format('woff2'),
+         url('../fonts/ClarendonBlkBTBlack.woff') format('woff'),
+         url('../fonts/ClarendonBlkBTBlack.ttf') format('truetype'),
+         url('../fonts/ClarendonBlkBTBlack.svg#ClarendonBlkBTBlack') format('svg');
+}
+@font-face {
+    font-family: 'Segoe UI This';
+    src: url('../fonts/SegoeUIThis.eot');
+    src: url('../fonts/SegoeUIThis.eot') format('embedded-opentype'),
+         url('../fonts/SegoeUIThis.woff2') format('woff2'),
+         url('../fonts/SegoeUIThis.woff') format('woff'),
+         url('../fonts/SegoeUIThis.ttf') format('truetype'),
+         url('../fonts/SegoeUIThis.svg#ClarendonBlkBTBlack') format('svg');
+}
+@font-face {
+    font-family: 'Segoe UI This';
+    src: url('../fonts/SegoeUIThis-Italic.eot');
+    src: url('../fonts/SegoeUIThis-Italic.eot') format('embedded-opentype'),
+         url('../fonts/SegoeUIThis-Italic.woff2') format('woff2'),
+         url('../fonts/SegoeUIThis-Italic.woff') format('woff'),
+         url('../fonts/SegoeUIThis-Italic.ttf') format('truetype'),
+         url('../fonts/SegoeUIThis-Italic.svg#ClarendonBlkBTBlack') format('svg');
+}
+@font-face {
+    font-family: 'Segoe UI This';
+    src: url('../fonts/SegoeUIThis-Bold.eot');
+    src: url('../fonts/SegoeUIThis-Bold.eot') format('embedded-opentype'),
+         url('../fonts/SegoeUIThis-Bold.woff2') format('woff2'),
+         url('../fonts/SegoeUIThis-Bold.woff') format('woff'),
+         url('../fonts/SegoeUIThis-Bold.ttf') format('truetype'),
+         url('../fonts/SegoeUIThis-Bold.svg#ClarendonBlkBTBlack') format('svg');
+}
+@font-face {
+    font-family: 'Segoe UI This';
+    src: url('../fonts/SegoeUIThis-BoldItalic.eot');
+    src: url('../fonts/SegoeUIThis-BoldItalic.eot') format('embedded-opentype'),
+         url('../fonts/SegoeUIThis-BoldItalic.woff2') format('woff2'),
+         url('../fonts/SegoeUIThis-BoldItalic.woff') format('woff'),
+         url('../fonts/SegoeUIThis-BoldItalic.ttf') format('truetype'),
+         url('../fonts/SegoeUIThis-BoldItalic.svg#ClarendonBlkBTBlack') format('svg');
 }
 @font-face {
     font-family: 'Font Awesome 6 Free';
