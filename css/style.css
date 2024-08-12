@@ -274,7 +274,7 @@ footer ul li:nth-child(3){
     margin-top: 1rem;
     font-family: "Segoe UI This";
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
     font-size: .95rem;
 }
 /*bdo{
@@ -342,7 +342,7 @@ footer ul li:nth-child(3){
 .concept_signature{
     font-family: "Segoe UI This";
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
     font-size: .95rem;
     text-align: right;
 }
@@ -547,7 +547,7 @@ footer ul li:nth-child(3){
 .title-biogr{
     margin-bottom: 1rem;
     font-family: "Segoe UI This";
-    font-weight: bold!important;
+    font-weight: normal!important;
     font-style: normal;
     color: #000;
 }
