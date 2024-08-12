@@ -448,7 +448,9 @@ footer ul li:nth-child(3){
     color: #000;
     padding-top:1rem;
     margin-bottom: 0;
-    font-family: var(--font-default);
+    font-family: "Segoe UI This";
+    font-weight: normal;
+    font-style: normal;
 }
 .water-2-h-h6:nth-child(2){
     padding-top: .4rem;
