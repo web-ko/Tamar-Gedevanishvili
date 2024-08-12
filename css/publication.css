@@ -13,21 +13,21 @@
 }
 .public_head .col-12:nth-child(2) p{
     margin-bottom: .4rem;
-    font-weight: 700;
+    font-weight: bold;
 }
 .public_head .col-12:nth-child(3){
     margin-top: 1rem;
 }
 .public_head .col-12:nth-child(5) p{
     margin-bottom: .4rem;
-    font-weight: 700;
+    font-weight: bold;
 }
 .public_head .col-12:nth-child(5){
     margin-top: 1.5rem;
 }
 .public_head .col-12:nth-child(2) a p{
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: bold;
     color: #0064ff;
 }
 .public_head .col-12:nth-child(2) span, .public_head .col-12:nth-child(4) span, .public_head .col-12:nth-child(5) span{
@@ -41,7 +41,7 @@
 }
 .public_head .row .col-12:nth-child(4) p:nth-child(1){
     margin-top: 0;
-    font-weight: 700;
+    font-weight: bold;
     color: #0064ff;
 }
 .public_head .row .col-12:nth-child(4) a p{
@@ -55,7 +55,7 @@
 .public_head .row .col-12:nth-child(5) a p{
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: bold;
     color: #0064ff;
 }
 .public_head .row .col-12:nth-child(6){
@@ -72,7 +72,7 @@
 }
 .read-more-btn{
     /*position: absolute;*/
-    font-weight: 700;
+    font-weight: bold;
     cursor: pointer;
 }
 .read-more-btn.hidden{
