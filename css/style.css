@@ -577,7 +577,7 @@ p{
 .signature{
     font-family: "Segoe UI This";
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
     font-size: .95rem;
     text-align: right;
 }
