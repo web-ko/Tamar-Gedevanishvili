@@ -316,6 +316,7 @@ footer ul li:nth-child(3){
 }
 .under_title{
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: .95rem;
 }
 .fiesta_head .under_title{
@@ -506,7 +507,11 @@ footer ul li:nth-child(3){
     font-weight: bold;
     font-style: normal;
     margin-top: 3rem;
+    margin-bottom: 1rem;
     text-transform: uppercase;
+}
+.under_img{
+    margin-bottom: 1rem;
 }
 .inter_head .col-12 div p.under_img{
     margin-top: 2rem;
@@ -1160,6 +1165,7 @@ footer p{
 }
 .connections_head .row .col-12:nth-child(5) p, .connections_head .row .col-12:nth-child(8) p, .free_city_head .row .col-12:nth-child(4) p, .free_city_head .row .col-12:nth-child(8) p, .free_city_head .row .col-12:nth-child(12) p, .kipsidze_head .row .col-12:nth-child(3) p, .kipsidze_head .row .col-12:nth-child(7) p, .fiesta_head .row .col-12:nth-child(5) p, .fiesta_head .row .col-12:nth-child(16) p, .our_head .row .col-12:nth-child(4) p, .our_head .row .col-12:nth-child(11) p, .renov_head .row .col-12:nth-child(8) p{
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 @media(max-width: 940px){
     .contact-gallery .row div:nth-child(2) {
