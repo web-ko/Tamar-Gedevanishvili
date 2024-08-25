@@ -54,4 +54,26 @@ $(".read-less-btn").click(function() {
     $(".read-less-btn").removeClass("show");
     $(window).scrollTop(scrollPosition); // Restore the scroll position
 });
+
+
+
+let scrollPosition1;
+
+$(".read-more-btn1").click(function() {
+    scrollPosition1 = $(window).scrollTop(); // Store the current scroll position
+    $(".read-more-btn1").toggleClass("hidden");
+    $(".read-more-text1").toggleClass("read-more-text--show");
+    $(".thr_dots1").toggleClass("hidden");
+    $(".more_paragr1").toggleClass("show");
+    $(".read-less-btn1").toggleClass("show");
+});
+
+$(".read-less-btn1").click(function() {
+    $(".read-more-btn1").removeClass("hidden");
+    $(".read-more-text1").removeClass("read-more-text--show");
+    $(".thr_dots1").removeClass("hidden");
+    $(".more_paragr1").removeClass("show");
+    $(".read-less-btn1").removeClass("show");
+    $(window).scrollTop(scrollPosition1); // Restore the scroll position
+});
 // End of When I click "Read less" the scroll position remains at the location of the "Read more" button
