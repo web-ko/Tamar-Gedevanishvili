@@ -5,11 +5,19 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .public_head svg, .svg-div{
     width: 50px;
 }
 .public_head .col-12:nth-child(1) p{
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .public_head .col-12:nth-child(2) p{
     margin-bottom: .4rem;
@@ -18,7 +26,7 @@
 .public_head .col-12:nth-child(3){
     margin-top: 1rem;
 }
-.public_head .col-12:nth-child(5) p{
+.public_head .row .col-12:nth-child(5) p{
     margin-bottom: .4rem;
     font-weight: bold;
 }
@@ -41,6 +49,7 @@
 }
 .public_head .row .col-12:nth-child(4) p:nth-child(1){
     margin-top: 0;
+    margin-bottom: 0;
     font-weight: bold;
     color: #0064ff;
 }
@@ -64,39 +73,43 @@
 .public_head .col-12:nth-child(4){
     margin-top: 5rem;
 }
-.read-more-text {
+.read-more-text, .read-more-text1 {
     display: none;
 }
-.read-more-text--show {
+.read-more-text.read-more-text--show, .read-more-text1.read-more-text--show {
     display: inline;
 }
-.read-more-btn{
+.read-more-btn, .read-more-btn1{
     /*position: absolute;*/
     font-weight: bold;
     cursor: pointer;
 }
-.read-more-btn.hidden{
+.read-more-btn.hidden, .read-more-btn1.hidden{
     display: none;
 }
-.thr_dots.hidden{
+.thr_dots.hidden, .thr_dots1.hidden{
     display: none;
 }
-.more_paragr{
+.more_paragr, .more_paragr1{
     display: none;
 }
-.more_paragr.show{
+.more_paragr.show, .more_paragr1.show{
     display: inline;
 }
-.read-less-btn{
+.read-less-btn, .read-less-btn1{
     display: none;
 }
-.read-less-btn.show{
+.read-less-btn.show, .read-less-btn1.show{
     display: inline;
     font-weight: bold;
     cursor: pointer;
 }
-.read_more p{
-    margin-bottom: 0;
+.read_more p, .read-more-text p, .read_more1 p, .read-more-text1 p{
+    padding-top: 0!important;
+    margin-top: 0!important;
+    margin-bottom: .7rem!important;
+    text-align: left!important;
+    font-style: normal!important;
 }
 /*@media(min-width: 1200px){
     .read_more{
