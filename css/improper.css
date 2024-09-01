@@ -91,6 +91,7 @@
     text-align: center;
 }
 .forGallery span {
+    position: relative;
     margin-bottom: 0;
     /*padding: .7rem .9rem .7rem .9rem;*/
     padding: 0;
