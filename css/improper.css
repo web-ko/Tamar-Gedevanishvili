@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media(min-width: 768px){
     .inter_head .container{
         max-width: 720px;
@@ -22,7 +29,7 @@
         /*height: 484px;*/
     }
     footer section{
-        margin-top: 8rem;
+        margin-top: 12rem;
     }
 }
 @media(min-width: 1200px){
@@ -46,7 +53,7 @@
            object-fit: cover;
     }
     footer section{
-        margin-top: 6rem;
+        margin-top: 8rem;
     }
     .container-improper .col-12:nth-child(12){
         margin-top: 2.5rem;
@@ -64,3 +71,56 @@
     -o-object-fit: cover;
        object-fit: cover;
 }
+/*.concept span{
+    display: block;
+    margin-top: -.5rem;
+}*/
+
+/*for new improper*/
+.inter_head h2{
+    margin-bottom: .5rem;
+    font-size: 1.7rem;
+    color: #000;
+}
+.forGallery{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.forGallery span {
+    margin-bottom: 0;
+    /*padding: .7rem .9rem .7rem .9rem;*/
+    padding: 0;
+    font-family: "Segoe UI This";
+    font-weight: bold;
+    font-style: normal;
+    font-size: .9rem;
+    color: #0064ff;
+    /*background-color: #f7f7f7;*/
+    background-color: transparent;
+}
+/*.forGallery span {
+    margin-bottom: 0;
+    padding: .7rem 1.5rem .7rem .5rem;
+    font-family: "Segoe UI This";
+    font-weight: bold;
+    font-style: normal;
+    font-size: .9rem;
+    color: #0064ff;
+    background-color: #f7f7f7;
+    position: relative;
+}
+.forGallery span::after {
+    content: "";
+    position: absolute;
+    border-top: 10px solid #0064ff;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    transform: rotateZ(270deg);
+    top: 40%;
+    right: 7px;
+}*/
+/*end of for new improper*/
