@@ -117,7 +117,8 @@
 .forGallery span::after {
     content: "";
     position: absolute;
-    border-top: 10px solid #afceff;
+    /*border-top: 10px solid #afceff;*/
+    border-top: 10px solid #0064ff;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
     -webkit-transform: rotateZ(270deg);
