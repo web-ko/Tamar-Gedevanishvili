@@ -182,10 +182,10 @@ section img{
             justify-content: center;
 }
 
-/*.bio_container p:nth-child(2),*/ .bio_container p:nth-child(3), .bio_container p:nth-child(4), .bio_container p:nth-child(6), .bio_container p:nth-child(7), .bio_container p:nth-child(9), .bio_container p:nth-child(10), .bio_container p:nth-child(11), .bio_container p:nth-child(12), .bio_container p:nth-child(13), .bio_container p:nth-child(14), .bio_container p:nth-child(15), .bio_container p:nth-child(16), .bio_container p:nth-child(17), .bio_container p:nth-child(18){
+/*.bio_container p:nth-child(2),*/ .bio_container p:nth-child(3), .bio_container p:nth-child(4), .bio_container p:nth-child(6), .bio_container p:nth-child(7), .bio_container p:nth-child(9), .bio_container p:nth-child(10), .bio_container p:nth-child(11), .bio_container p:nth-child(12), .bio_container p:nth-child(13), .bio_container p:nth-child(14), .bio_container p:nth-child(15), .bio_container p:nth-child(16), .bio_container p:nth-child(17), .bio_container p:nth-child(18), .bio_container p:nth-child(19){
     margin-bottom: .7rem;
 }
-.bio_container p:nth-child(11) span, .bio_container p:nth-child(12) span, .bio_container p:nth-child(13) span, .bio_container p:nth-child(14) span, .bio_container p:nth-child(15) span, .bio_container p:nth-child(16) span, .bio_container p:nth-child(17) span, .bio_container p:nth-child(18) span{
+.bio_container p:nth-child(11) span, .bio_container p:nth-child(12) span, .bio_container p:nth-child(13) span, .bio_container p:nth-child(14) span, .bio_container p:nth-child(15) span, .bio_container p:nth-child(16) span, .bio_container p:nth-child(17) span, .bio_container p:nth-child(18) span, .bio_container p:nth-child(19) span{
     font-style: italic;
 }
 .bio_container p:nth-child(5), .bio_container p:nth-child(8){
@@ -1526,4 +1526,33 @@ button svg g, button svg polyline{
 
 .video-js .vjs-control:focus, .video-js .vjs-control:focus:before, .video-js .vjs-control:hover:before {
     outline: none;
+}
+
+
+.home_head h2 {
+    margin-bottom: 3rem;
+}
+.home_head .sub_title {
+    margin-bottom: 1rem;
+}
+.home_head .concept_signature{
+    margin-bottom: 1rem;
+}
+.home_head .under_img{
+    margin-top: 1rem;
+}
+.home_head .under_img span {
+    line-height: 0;
+    font-style: italic;
+}
+.home_head .signature {
+    font-family: "Segoe UI This";
+    font-weight: normal;
+    font-style: normal;
+    font-size: .95rem;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+.home_head .container-improper .col-12:nth-child(4), .home_head .container-improper .col-12:nth-child(7), .home_head .container-improper .col-12:nth-child(10) {
+    margin-top: 1.5rem;
 }
