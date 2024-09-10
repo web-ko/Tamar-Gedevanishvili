@@ -1529,7 +1529,7 @@ button svg g, button svg polyline{
 }
 
 
-.home_head h2 {
+.home_head.inter_head h2 {
     margin-bottom: 3rem;
 }
 .home_head .sub_title {
