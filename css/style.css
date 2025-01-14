@@ -235,6 +235,113 @@ section img{
 .video-wrapper .container .row .col-12:nth-child(3), .video-wrapper .container .row .col-12:nth-child(4), .video-wrapper .container .row .col-12:nth-child(5){
     margin-top: 3rem;
 }
+
+/* fancybox */
+.video-wrapper .video{
+    position: relative;
+}
+.video-wrapper .video .hot-spot{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    top: 0;
+    left: 0;
+}
+.video-wrapper .video .play-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    /* font-size: 4rem; */
+    color: #fff;
+}
+.video-wrapper .video .play-button .play-button_border {
+    /*background-color: rgba(43, 51, 63, .7);*/
+    background-color: rgba(255, 0, 0, .7);
+    /*border: 1px solid #fff;*/
+    /*border-radius: 12%;*/
+    border-radius: 26%;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.video-wrapper .video:hover .play-button_border {
+    /*background-color: rgb(141, 145, 153, .5);*/
+    background-color: rgb(255, 0, 0, 1);
+    /*border: 1px solid #fff;*/
+    /*border-radius: 12%;*/
+    border-radius: 26%;
+}
+.video-wrapper .video .play-button svg {
+    /*width: 67px;*/
+    width: 63px;
+}
+.video-wrapper .video .play-button svg .st01 {
+    fill: #fff;
+}
+.video-wrapper .video img{
+    width: 100%;
+    /*height: 287px;*/
+}
+.fancybox__container {
+    --fancybox-color: #dbdbdb;
+    --fancybox-hover-color: #fff;
+    --fancybox-bg: rgba(255, 255, 255, 0.98);
+}
+.fancybox__content>.f-button.is-close-btn {
+    --f-button-width: 34px!important;
+    --f-button-height: 34px!important;
+    --f-button-border-radius: 4px!important;
+    --f-button-color: #000!important;
+    --f-button-hover-color: var(--fancybox-color, #fff)!important;
+    --f-button-bg: transparent!important;
+    --f-button-hover-bg: transparent!important;
+    --f-button-active-bg: transparent!important;
+    --f-button-svg-width: 22px!important;
+    --f-button-svg-height: 22px!important;
+    position: absolute;
+    top: -38px!important;
+    right: 0!important;
+    opacity: .75;
+}
+.fancybox__slide {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.fancybox__footer {
+    padding: 0!important;
+    margin: 0!important;
+    position: relative!important;
+}
+.fancybox__caption h3{
+    font-family: "Segoe UI This";
+    font-size: 1.5rem;
+    color: #000;
+}
+@media(min-width: 768px) and (max-width: 1180px){
+    .video-wrapper .video .play-button svg {
+        width: 5.7vw;
+    }
+}
+@media(max-width: 767px){
+    .video-wrapper .video .play-button svg {
+        width: 9vw;
+    }
+}
+@media(max-width: 650px){
+    .fancybox__caption h3 {
+        font-size: 3.7vw;
+    }
+}
+@media(max-width: 575px){
+    .video-wrapper .video .play-button svg {
+        width: 12vw;
+    }
+}
+/* End of fancybox */
 .video-wrapper .video iframe{
     width: 100%;
     height: 287px;
@@ -1529,7 +1636,8 @@ button svg g, button svg polyline{
 }
 
 
-.home_head.inter_head h2 {
+
+.home_head.inter_head h2{
     margin-bottom: 3rem;
 }
 .home_head .sub_title {
