@@ -308,8 +308,8 @@ section img{
     opacity: .75;
 }
 .fancybox__slide {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .fancybox__footer {
     padding: 0!important;
