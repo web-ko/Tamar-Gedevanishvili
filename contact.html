@@ -97,6 +97,9 @@
 								<a href="#;"><i class="fa-brands fa-facebook"></i></a>
 							</li>
 						</ul>
+						<div class="mt-5">
+							<a href="https://github.com/web-ko/Tamar-Gedevanishvili/blob/main/img/044.webp" download>Click to download</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -144,6 +147,45 @@
 	<script type="text/javascript" src="js/baguetteBox.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+
+
+	<script>
+  // document.getElementById("downloadFile").addEventListener("click", function () {
+  //   const data = "Hello, this is a sample text file!";
+  //   const blob = new Blob([data], { type: "text/plain" });
+  //   const url = URL.createObjectURL(blob);
+
+  //   const link = document.createElement("a");
+  //   link.href = url;
+  //   link.download = "img/20210801.webp"; // Filename
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+
+  //   URL.revokeObjectURL(url); // Clean up
+  // });
+
+  document.getElementById("downloadFile").addEventListener("click", function () {
+    const data = "Hello, this is a image file!";
+    const blob = new Blob([data], { type: "image" });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "20210801.webp"; // Filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    URL.revokeObjectURL(url); // Clean up
+  });
+
+
+
+
+
+
+</script>
 
 
 
