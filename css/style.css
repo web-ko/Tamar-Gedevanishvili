@@ -161,8 +161,11 @@ section img{
     width: 100%;
     height: 100%;
     text-align: center;
-    cursor: -webkit-zoom-out;
-    cursor: zoom-out;
+    cursor: auto;
+}
+.body-improper #baguetteBox-figure-2 img, .body-improper #baguetteBox-figure-3 img, .body-improper #baguetteBox-figure-4 img, .body-improper #baguetteBox-figure-5 img{
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
 }
 .home-gallery, .inter_head, .our_head, .free_city_head, .connections_head{
     padding: 7rem 0 0 0;
