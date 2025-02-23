@@ -167,6 +167,10 @@ section img{
     -webkit-filter: grayscale(1);
             filter: grayscale(1);
 }
+.body-improper #baguetteBox-figure-6 img{
+    -webkit-filter: brightness(.85) contrast(1.5);
+            filter: brightness(.85) contrast(1.5);
+}
 .home-gallery, .inter_head, .our_head, .free_city_head, .connections_head{
     padding: 7rem 0 0 0;
 }
@@ -1666,4 +1670,7 @@ button svg g, button svg polyline{
 }
 .home_head .container-improper .col-12:nth-child(4), .home_head .container-improper .col-12:nth-child(7), .home_head .container-improper .col-12:nth-child(10) {
     margin-top: 1.5rem;
+}
+.public-trigger-container{
+    display: none;
 }
