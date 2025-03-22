@@ -1859,7 +1859,8 @@ button svg g, button svg polyline{
 .css-rk0vpo {
     position: relative;
     max-height: 100vh;
-    min-height: 70vh;
+    min-height: 100vh;
+    /*min-height: 70vh;*/
     background: var(--chakra-colors-transparent);
 }
 .css-rk0vpo::before {
