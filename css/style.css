@@ -2490,6 +2490,48 @@ body:not(.ie):not(.unknown) .flourish-corner {
     }
 }
 
+@media(max-width: 575px){
+    .biography-small .title-biogr{
+        -webkit-transform: translateX(-1.5rem);
+            -ms-transform: translateX(-1.5rem);
+                transform: translateX(-1.5rem);
+    }
+    .bio_container-new .biography-small .small-text, .bio_container-new .biography-small .small-text3 {
+        -webkit-transform: translateX(-1.5rem);
+            -ms-transform: translateX(-1.5rem);
+                transform: translateX(-1.5rem);
+    }
+    .bio_container-new .read-more-click, .bio_container-new .read-less-click.show {
+        -webkit-transform: translateX(-1.5rem);
+            -ms-transform: translateX(-1.5rem);
+                transform: translateX(-1.5rem);
+    }
+    .bio_container-new .biography-small .small-text1 {
+        -webkit-transform: translateX(-1.5rem);
+            -ms-transform: translateX(-1.5rem);
+                transform: translateX(-1.5rem);
+    }
+    .bio_container-new p:nth-child(3), .bio_container-new p:nth-child(4), .bio_container-new p:nth-child(6), .bio_container-new p:nth-child(7), .bio_container-new p:nth-child(9), .bio_container-new p:nth-child(10), .bio_container-new p:nth-child(11), .bio_container-new p:nth-child(12), .bio_container-new p:nth-child(13), .bio_container-new p:nth-child(14), .bio_container-new p:nth-child(15), .bio_container-new p:nth-child(16), .bio_container-new p:nth-child(17), .bio_container-new p:nth-child(18), .bio_container-new p:nth-child(19) {
+        -webkit-transform: translateX(-1.5rem);
+            -ms-transform: translateX(-1.5rem);
+                transform: translateX(-1.5rem);
+    }
+    .bio_container-new a span {
+        -webkit-transform: translateX(-1.5rem);
+            -ms-transform: translateX(-1.5rem);
+                transform: translateX(-1.5rem);
+    }
+    .read-more p:nth-child(1) {
+        -webkit-transform: translateX(-1.5rem);
+            -ms-transform: translateX(-1.5rem);
+                transform: translateX(-1.5rem);
+    }
+    .bio_container-new .read-more .text2, .bio_container-new .read-more .text5, .bio_container-new .read-more .text8 {
+        -webkit-transform: translateX(-1.5rem);
+            -ms-transform: translateX(-1.5rem);
+                transform: translateX(-1.5rem);
+    }
+}
 @media(max-width: 456px){
     .bio_container-new .bio_container_col h1 {
         font-size: 5.2vw;
