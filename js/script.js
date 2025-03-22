@@ -342,9 +342,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Initialize Swiper
     var swiper = new Swiper('.swiper', {
         speed: 1200,
-        autoplay: {
-            delay: 3000,
-        },
+        // autoplay: {
+        //     delay: 3000,
+        // },
         transitionTimingFunction: 'cubic-bezier(x1, y1, x2, y2)',
         pagination: {
             el: '.swiper-pagination',
@@ -413,7 +413,7 @@ if (mediaQuery.matches) {
     let scrollPosition;
     $(".read-more-click").click(function(){
         scrollPosition = $(window).scrollTop();
-        $(".read-more").slideToggle("fast");
+        $(".read-more").slideToggle(0);
         $(".read-more-click").toggleClass("hidden");
         $(".read-less-click").toggleClass("show");
     });
