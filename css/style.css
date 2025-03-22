@@ -2230,9 +2230,9 @@ button svg g, button svg polyline{
 .biography-photo img{
     -o-object-fit: cover;
        object-fit: cover;
-    -webkit-transform: scale(2.5);
-        -ms-transform: scale(2.5);
-            transform: scale(2.5);
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
     -o-object-position: -100px 28%;
        object-position: -100px 28%;
 }
@@ -2524,5 +2524,16 @@ body:not(.ie):not(.unknown) .flourish-corner {
     }
     .swiper-text h5 {
         font-size: 5.9vw;
+    }
+}
+@media(max-width: 450px){
+    .biography-photo img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        -webkit-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+                transform: scale(1.5);
+        -o-object-position: 100%;
+           object-position: 100%;
     }
 }
