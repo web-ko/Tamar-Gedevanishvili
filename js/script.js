@@ -188,3 +188,239 @@ $(window).scroll(function(){
 
 Fancybox.bind("[data-fancybox]",{
 });
+
+
+// Swiper
+// With change photos and texts when loading
+// document.addEventListener("DOMContentLoaded", function () {
+//     const swiperContainer = document.querySelector(".swiper-wrapper");
+//     const slides = Array.from(swiperContainer.children);
+
+//     // Locations data (linked to slides)
+//     const locations = [
+//         { country: "GIVEN TIME", project: "PLACE FOR FUN" },
+//         { country: "GIVEN TIME", project: "OVERTAKING" },
+//         { country: "GIVEN TIME", project: "HERE, NOW" },
+//         { country: "GIVEN TIME", project: "IT'S WINDY NOW" }
+//     ];
+
+//     // Pair slides with their location data
+//     let pairedData = slides.map((slide, index) => ({
+//         slide: slide.cloneNode(true), // Clone to avoid moving DOM nodes directly
+//         location: locations[index]
+//     }));
+
+//     // Shuffle function (Fisher-Yates algorithm)
+//     function shuffleArray(array) {
+//         for (let i = array.length - 1; i > 0; i--) {
+//             const j = Math.floor(Math.random() * (i + 1));
+//             [array[i], array[j]] = [array[j], array[i]];
+//         }
+//     }
+//     // Shuffle pairedData array
+//     shuffleArray(pairedData);
+
+//     // Clear existing slides and re-insert shuffled ones
+//     swiperContainer.innerHTML = "";
+//     pairedData.forEach(pair => swiperContainer.appendChild(pair.slide));
+
+//     // Extract shuffled locations to update texts later
+//     const shuffledLocations = pairedData.map(pair => pair.location);
+
+//     // Initialize Swiper
+//     var swiper = new Swiper('.swiper', {
+//         speed: 1200,
+//         // autoplay: {
+//         //     delay: 3000,
+//         // },
+//         pagination: {
+//             el: '.swiper-pagination',
+//             clickable: true,
+//         },
+//         navigation: {
+//             nextEl: '.swiper-button-next',
+//             prevEl: '.swiper-button-prev'
+//         },
+//         loop: true,
+//         parallax: true,
+//         simulateTouch: true,
+//         grabCursor: true,
+//     });
+
+//     // Add custom click handler for the entire pagination container
+//     const paginationContainer = document.querySelector('.swiper-pagination');
+//     paginationContainer.addEventListener('click', (event) => {
+//         const bullets = Array.from(paginationContainer.querySelectorAll('.swiper-pagination-bullet'));
+//         const rect = paginationContainer.getBoundingClientRect();
+//         const offsetX = event.clientX - rect.left; // Mouse position relative to the container
+
+//         // Calculate which bullet was clicked based on the mouse position
+//         const bulletWidth = rect.width / bullets.length;
+//         const clickedBulletIndex = Math.floor(offsetX / bulletWidth);
+
+//         // Change the slide to the corresponding bullet index
+//         if (clickedBulletIndex >= 0 && clickedBulletIndex < bullets.length) {
+//             // Use swiper.slideToLoop if loop is enabled, otherwise use swiper.slideTo
+//             if (swiper.params.loop) {
+//                 swiper.slideToLoop(clickedBulletIndex);
+//             } else {
+//                 swiper.slideTo(clickedBulletIndex);
+//             }
+//         }
+//     });
+
+//     // Update the pagination bullets to reflect the correct active slide
+//     swiper.on('slideChange', () => {
+//         const bullets = Array.from(paginationContainer.querySelectorAll('.swiper-pagination-bullet'));
+//         const realIndex = swiper.realIndex; // Get the real index of the active slide
+
+//         bullets.forEach((bullet, index) => {
+//             if (index === realIndex) {
+//                 bullet.classList.add('swiper-pagination-bullet-active');
+//                 bullet.setAttribute('aria-current', 'true');
+//             } else {
+//                 bullet.classList.remove('swiper-pagination-bullet-active');
+//                 bullet.removeAttribute('aria-current');
+//             }
+//         });
+//     });
+
+//     // Function to update text based on active slide
+//     function updateTexts(index) {
+//         const activeLocation = shuffledLocations[index];
+
+//         const countryElement = document.querySelector('.css-lg9xot .chakra-text.css-ixwp1l');
+//         const projectElement = document.querySelector('.css-lg9xot .chakra-heading.css-1ypxy8a');
+
+//         if (activeLocation && countryElement && projectElement) {
+//             countryElement.classList.add('fade-out');
+//             projectElement.classList.add('fade-out');
+
+//             setTimeout(() => {
+//                 countryElement.textContent = activeLocation.country;
+//                 projectElement.textContent = activeLocation.project;
+
+//                 countryElement.classList.remove('fade-out');
+//                 countryElement.classList.add('fade-in');
+
+//                 projectElement.classList.remove('fade-out');
+//                 projectElement.classList.add('fade-in');
+//             }, 300); // Adjust timing for smooth transitions
+//         }
+//     }
+
+//     // Update text on slide change
+//     swiper.on('slideChange', function () {
+//         updateTexts(swiper.realIndex);
+//     });
+
+//     // Ensure the correct text is shown on first load
+//     updateTexts(swiper.realIndex);
+// });
+
+
+// Without text changes
+document.addEventListener("DOMContentLoaded", function () {
+    const swiperContainer = document.querySelector(".swiper-wrapper");
+    const slides = Array.from(swiperContainer.children);
+
+    // Shuffle function (Fisher-Yates algorithm)
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+    // Shuffle slides
+    shuffleArray(slides);
+
+    // Clear existing slides and re-insert shuffled ones
+    swiperContainer.innerHTML = "";
+    slides.forEach(slide => swiperContainer.appendChild(slide));
+
+    // Initialize Swiper
+    var swiper = new Swiper('.swiper', {
+        speed: 1200,
+        autoplay: {
+            delay: 3000,
+        },
+        transitionTimingFunction: 'cubic-bezier(x1, y1, x2, y2)',
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+        },
+        loop: true,
+        parallax: true,
+        simulateTouch: true,
+        grabCursor: true,
+    });
+
+    // Add custom click handler for the entire pagination container
+    const paginationContainer = document.querySelector('.swiper-pagination');
+    paginationContainer.addEventListener('click', (event) => {
+        const bullets = Array.from(paginationContainer.querySelectorAll('.swiper-pagination-bullet'));
+        const rect = paginationContainer.getBoundingClientRect();
+        const offsetX = event.clientX - rect.left; // Mouse position relative to the container
+
+        // Calculate which bullet was clicked based on the mouse position
+        const bulletWidth = rect.width / bullets.length;
+        const clickedBulletIndex = Math.floor(offsetX / bulletWidth);
+
+        // Change the slide to the corresponding bullet index
+        if (clickedBulletIndex >= 0 && clickedBulletIndex < bullets.length) {
+            if (swiper.params.loop) {
+                swiper.slideToLoop(clickedBulletIndex);
+            } else {
+                swiper.slideTo(clickedBulletIndex);
+            }
+        }
+    });
+
+    // Update the pagination bullets to reflect the correct active slide
+    swiper.on('slideChange', () => {
+        const bullets = Array.from(paginationContainer.querySelectorAll('.swiper-pagination-bullet'));
+        const realIndex = swiper.realIndex;
+
+        bullets.forEach((bullet, index) => {
+            if (index === realIndex) {
+                bullet.classList.add('swiper-pagination-bullet-active');
+                bullet.setAttribute('aria-current', 'true');
+            } else {
+                bullet.classList.remove('swiper-pagination-bullet-active');
+                bullet.removeAttribute('aria-current');
+            }
+        });
+    });
+});
+// End of Without text changes
+// End of With change photos and texts when loading
+// End of Swiper
+
+
+
+
+
+
+
+const mediaQuery = window.matchMedia('(max-width: 991px)')
+if (mediaQuery.matches) {
+
+    let scrollPosition;
+    $(".read-more-click").click(function(){
+        scrollPosition = $(window).scrollTop();
+        $(".read-more").slideToggle("fast");
+        $(".read-more-click").toggleClass("hidden");
+        $(".read-less-click").toggleClass("show");
+    });
+    $(".read-less-click").click(function(){
+        $(".read-more").slideUp("fast");
+        $(".read-more-click").removeClass("hidden");
+        $(".read-less-click").removeClass("show");
+        $(window).scrollTop(scrollPosition); // Restore the scroll position
+    });
+}
