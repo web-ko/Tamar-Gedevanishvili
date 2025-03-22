@@ -1844,6 +1844,9 @@ button svg g, button svg polyline{
     .biography-gallery .improper_gallery-back{
         padding: 0;
     }
+    .project-gallery h2, .graphic-gallery h1, .gallery-gallery h1{
+        margin-bottom: 0;
+    }
 }
 
 
@@ -1862,6 +1865,11 @@ button svg g, button svg polyline{
     min-height: 100vh;
     /*min-height: 70vh;*/
     background: var(--chakra-colors-transparent);
+}
+@media(max-width: 575px){
+    .css-rk0vpo {
+        min-height: 93vh;
+    }
 }
 .css-rk0vpo::before {
     height: 0px;
