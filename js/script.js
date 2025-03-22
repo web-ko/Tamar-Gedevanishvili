@@ -418,7 +418,7 @@ if (mediaQuery.matches) {
         $(".read-less-click").toggleClass("show");
     });
     $(".read-less-click").click(function(){
-        $(".read-more").slideUp("fast");
+        $(".read-more").slideUp(0);
         $(".read-more-click").removeClass("hidden");
         $(".read-less-click").removeClass("show");
         $(window).scrollTop(scrollPosition); // Restore the scroll position
