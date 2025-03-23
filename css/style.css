@@ -2340,7 +2340,7 @@ body:not(.ie):not(.unknown) .flourish-corner {
     padding-left: 0;
 }
 @media (hover: hover) and (pointer: fine) {
-    .biography-gallery .improper_gallery-back a:hover span, .biography-gallery .improper_gallery-back a:hover svg{
+    .biography-gallery .improper_gallery-back a:hover span, .biography-gallery .improper_gallery-back a:hover svg, .improper_gallery-back a:hover svg, .improper_gallery-back a:hover span{
         color: #b35316;
     }
 }
