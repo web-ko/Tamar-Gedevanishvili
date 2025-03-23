@@ -429,12 +429,14 @@ if (mediaQuery.matches) {
     let scrollPosition;
     $(".read-more-click").click(function(){
         scrollPosition = $(window).scrollTop();
-        $(".read-more").css('display', $(".read-more").css('display') === 'none' ? 'block' : 'none');
+        $(".read-more").toggle();
+        $(".read-more").get(0).offsetHeight; // Force layout update
         $(".read-more-click").toggleClass("hidden");
         $(".read-less-click").toggleClass("show");
     });
     $(".read-less-click").click(function(){
-        $(".read-more").css('display', 'none');
+        $(".read-more").hide();
+        $(".read-more").get(0).offsetHeight; // Force layout update
         $(".read-more-click").removeClass("hidden");
         $(".read-less-click").removeClass("show");
         $(window).scrollTop(scrollPosition); // Restore the scroll position
