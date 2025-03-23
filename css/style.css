@@ -1193,7 +1193,9 @@ footer p{
         -o-transition: 0.5s;
         transition: 0.5s;
         z-index: 9999;
-        padding-right: 10px;
+        /*padding-right: 10px;*/
+        padding-right: 0;
+        margin-right: -6px;
     }
     .navbar ul {
         position: absolute;
@@ -1259,7 +1261,8 @@ footer p{
         -o-transition: 0.5s;
         transition: 0.5s;
         position: fixed;
-        right: 20px;
+        /* right: 20px; */
+        right: calc(3% + 8px);
         top: 20px;
         z-index: 9999;
     }
