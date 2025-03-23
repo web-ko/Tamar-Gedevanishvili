@@ -429,12 +429,12 @@ if (mediaQuery.matches) {
     let scrollPosition;
     $(".read-more-click").click(function(){
         scrollPosition = $(window).scrollTop();
-        $(".read-more").toggle(); // Use .toggle() instead of slideToggle(0)
+        $(".read-more").css('display', $(".read-more").css('display') === 'none' ? 'block' : 'none');
         $(".read-more-click").toggleClass("hidden");
         $(".read-less-click").toggleClass("show");
     });
     $(".read-less-click").click(function(){
-        $(".read-more").hide(); // Use .hide() instead of slideUp(0)
+        $(".read-more").css('display', 'none');
         $(".read-more-click").removeClass("hidden");
         $(".read-less-click").removeClass("show");
         $(window).scrollTop(scrollPosition); // Restore the scroll position
