@@ -2595,6 +2595,9 @@ body:not(.ie):not(.unknown) .flourish-corner {
     .swiper-text h5 {
         font-size: 5.9vw;
     }
+    .swiper-text {
+        left: 20px;
+    }
 }
 @media(max-width: 450px){
     .biography-photo img {
