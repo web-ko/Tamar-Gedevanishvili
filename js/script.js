@@ -410,17 +410,37 @@ document.addEventListener("DOMContentLoaded", function () {
 const mediaQuery = window.matchMedia('(max-width: 991px)')
 if (mediaQuery.matches) {
 
+    // let scrollPosition;
+    // $(".read-more-click").click(function(){
+    //     scrollPosition = $(window).scrollTop();
+    //     $(".read-more").slideToggle(0);
+    //     $(".read-more-click").toggleClass("hidden");
+    //     $(".read-less-click").toggleClass("show");
+    // });
+    // $(".read-less-click").click(function(){
+    //     $(".read-more").slideUp(0);
+    //     $(".read-more-click").removeClass("hidden");
+    //     $(".read-less-click").removeClass("show");
+    //     $(window).scrollTop(scrollPosition); // Restore the scroll position
+    // });
+
+
+
     let scrollPosition;
     $(".read-more-click").click(function(){
         scrollPosition = $(window).scrollTop();
-        $(".read-more").slideToggle(0);
+        $(".read-more").toggle(); // Use .toggle() instead of slideToggle(0)
         $(".read-more-click").toggleClass("hidden");
         $(".read-less-click").toggleClass("show");
     });
     $(".read-less-click").click(function(){
-        $(".read-more").slideUp(0);
+        $(".read-more").hide(); // Use .hide() instead of slideUp(0)
         $(".read-more-click").removeClass("hidden");
         $(".read-less-click").removeClass("show");
         $(window).scrollTop(scrollPosition); // Restore the scroll position
     });
 }
+
+
+
+
