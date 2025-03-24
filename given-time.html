@@ -483,23 +483,38 @@
 
 	<!-- ერთი გვერდიდან მეორეზე გადასვლისას სქროლის სიმაღლის კონტროლი -->
 	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-		    // Check if the URL has a hash fragment we want to adjust
-		    const validHashes = ['placeForfun', 'overtaking', 'hereNow', 'windyNow'];
-		    const currentHash = window.location.hash.substring(1); // Remove the # from the hash
+		// document.addEventListener('DOMContentLoaded', function() {
+		//     // Check if the URL has a hash fragment we want to adjust
+		//     const validHashes = ['placeForfun', 'overtaking', 'hereNow', 'windyNow'];
+		//     const currentHash = window.location.hash.substring(1); // Remove the # from the hash
 		    
-		    if (validHashes.includes(currentHash)) {
-		        // Wait a brief moment to ensure the browser has processed the hash navigation
-		        setTimeout(function() {
-		            // Get the current scroll position
-		            const currentPosition = window.pageYOffset || document.documentElement.scrollTop;
+		//     if (validHashes.includes(currentHash)) {
+		//         // Wait a brief moment to ensure the browser has processed the hash navigation
+		//         setTimeout(function() {
+		//             // Get the current scroll position
+		//             const currentPosition = window.pageYOffset || document.documentElement.scrollTop;
 		            
-		            // Scroll down by an additional 150px
-		            window.scrollTo({
-		                top: currentPosition - 150,
-		                behavior: 'smooth' // Optional: adds smooth scrolling
-		            });
-		        }, 50); // Small delay to ensure hash navigation has occurred
+		//             // Scroll down by an additional 150px
+		//             window.scrollTo({
+		//                 top: currentPosition - 150,
+		//                 behavior: 'smooth' // Optional: adds smooth scrolling
+		//             });
+		//         }, 50); // Small delay to ensure hash navigation has occurred
+		//     }
+		// });
+
+
+		$(document).ready(function() {
+		    var validHashes = ['placeForfun', 'overtaking', 'hereNow', 'windyNow'];
+		    var hash = window.location.hash.substring(1);
+		    
+		    if (validHashes.includes(hash)) {
+		        var target = $('#' + hash);
+		        if (target.length) {
+		            $('html, body').animate({
+		                scrollTop: target.offset().top - 150
+		            }, 0);
+		        }
 		    }
 		});
 	</script>
