@@ -95,7 +95,7 @@
 							<div class="image">
 								<img class="akvareli-6" src="img/dance.webp">
 							</div>
-							<div class="water-2-h" id="windyNow">
+							<div class="water-2-h">
 								<h6 class="water-2-h-h6">DANCE</h6>
 								<h6 class="water-2-h-h6">Acrylic on canvas</h6>
 								<h6 class="water-2-h-h6">200 X 160 CM</h6>
@@ -117,7 +117,7 @@
 	           			</a>
            			</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 akva-20">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-4 akva-20" id="hereNow">
 					<div>
 						<a href="img/here_now.webp">
 							<div class="image">
@@ -131,13 +131,13 @@
 	           			</a>
            			</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 skulp-02">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-4 skulp-02" id="windyNow">
 					<div>
 						<a href="img/it's_windy_now.webp">
 							<div class="image">
 								<img class="skulptura-02" src="img/it's_windy_now.webp">
 							</div>
-							<div class="water-2-h" id="overtaking">
+							<div class="water-2-h">
 								<h6 class="water-2-h-h6">IT'S WINDY NOW</h6>
 								<h6 class="water-2-h-h6">Acrylic on canvas</h6>
 								<h6 class="water-2-h-h6">200 X 160 CM</h6>
@@ -159,7 +159,7 @@
 	           			</a>
            			</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 guach-2">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-4 guach-2" id="overtaking">
 					<div>
 						<a href="img/overtaking.webp">
 							<div class="image">
@@ -221,7 +221,7 @@
 							<div class="image">
 								<img class="graviura-1" src="img/Canvas, acrylic, 40X50_02.webp">
 							</div>
-							<div class="water-2-h" id="placeForfun">
+							<div class="water-2-h">
 								<h6 class="water-2-h-h6">GIVEN TIME</h6>
 								<h6 class="water-2-h-h6">Acrylic on canvas</h6>
 								<h6 class="water-2-h-h6">40 X 50 CM</h6>
@@ -257,7 +257,7 @@
 	           			</a>
            			</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 grav-1">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-4 grav-1" id="placeForfun">
 					<div>
 						<a href="img/place_for_fun.webp">
 							<div class="image">
@@ -479,6 +479,30 @@
 	<script type="text/javascript" src="js/baguetteBox.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+
+
+	<!-- ერთი გვერდიდან მეორეზე გადასვლისას სქროლის სიმაღლის კონტროლი -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		    // Check if the URL has a hash fragment we want to adjust
+		    const validHashes = ['placeForfun', 'overtaking', 'hereNow', 'windyNow'];
+		    const currentHash = window.location.hash.substring(1); // Remove the # from the hash
+		    
+		    if (validHashes.includes(currentHash)) {
+		        // Wait a brief moment to ensure the browser has processed the hash navigation
+		        setTimeout(function() {
+		            // Get the current scroll position
+		            const currentPosition = window.pageYOffset || document.documentElement.scrollTop;
+		            
+		            // Scroll down by an additional 150px
+		            window.scrollTo({
+		                top: currentPosition - 150,
+		                behavior: 'smooth' // Optional: adds smooth scrolling
+		            });
+		        }, 50); // Small delay to ensure hash navigation has occurred
+		    }
+		});
+	</script>
 
 
 
