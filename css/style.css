@@ -2672,3 +2672,6 @@ body:not(.ie):not(.unknown) .flourish-corner {
            object-position: 100%;
     }
 }
+.read-more p span{
+    font-style: italic;
+}
