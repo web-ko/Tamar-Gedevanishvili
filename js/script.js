@@ -404,44 +404,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+let scrollPosition;
+$(".read-more-click").click(function(){
+    scrollPosition = $(window).scrollTop();
+    $(".read-more").toggle();
+    $(".read-more").get(0).offsetHeight; // Force layout update
+    $(".read-more-click").toggleClass("hidden");
+    $(".read-less-click").toggleClass("show");
+});
+$(".read-less-click").click(function(){
+    $(".read-more").hide();
+    $(".read-more").get(0).offsetHeight; // Force layout update
+    $(".read-more-click").removeClass("hidden");
+    $(".read-less-click").removeClass("show");
+    $(window).scrollTop(scrollPosition); // Restore the scroll position
+});
 
 
-
-const mediaQuery = window.matchMedia('(max-width: 991px)')
-if (mediaQuery.matches) {
-
-    // let scrollPosition;
-    // $(".read-more-click").click(function(){
-    //     scrollPosition = $(window).scrollTop();
-    //     $(".read-more").slideToggle(0);
-    //     $(".read-more-click").toggleClass("hidden");
-    //     $(".read-less-click").toggleClass("show");
-    // });
-    // $(".read-less-click").click(function(){
-    //     $(".read-more").slideUp(0);
-    //     $(".read-more-click").removeClass("hidden");
-    //     $(".read-less-click").removeClass("show");
-    //     $(window).scrollTop(scrollPosition); // Restore the scroll position
-    // });
-
-
-
-    let scrollPosition;
-    $(".read-more-click").click(function(){
-        scrollPosition = $(window).scrollTop();
-        $(".read-more").toggle();
-        $(".read-more").get(0).offsetHeight; // Force layout update
-        $(".read-more-click").toggleClass("hidden");
-        $(".read-less-click").toggleClass("show");
-    });
-    $(".read-less-click").click(function(){
-        $(".read-more").hide();
-        $(".read-more").get(0).offsetHeight; // Force layout update
-        $(".read-more-click").removeClass("hidden");
-        $(".read-less-click").removeClass("show");
-        $(window).scrollTop(scrollPosition); // Restore the scroll position
-    });
-}
 
 
 
