@@ -35,10 +35,10 @@
 
 
 // When I click "Read less" the scroll position remains at the location of the "Read more" button
-let scrollPosition;
+let scrollPosition2;
 
 $(".read-more-btn").click(function() {
-    scrollPosition = $(window).scrollTop(); // Store the current scroll position
+    scrollPosition2 = $(window).scrollTop(); // Store the current scroll position
     $(".read-more-btn").toggleClass("hidden");
     $(".read-more-text").toggleClass("read-more-text--show");
     $(".thr_dots").toggleClass("hidden");
@@ -57,10 +57,10 @@ $(".read-less-btn").click(function() {
 
 
 
-let scrollPosition1;
+let scrollPosition3;
 
 $(".read-more-btn1").click(function() {
-    scrollPosition1 = $(window).scrollTop(); // Store the current scroll position
+    scrollPosition3 = $(window).scrollTop(); // Store the current scroll position
     $(".read-more-btn1").toggleClass("hidden");
     $(".read-more-text1").toggleClass("read-more-text--show");
     $(".thr_dots1").toggleClass("hidden");
