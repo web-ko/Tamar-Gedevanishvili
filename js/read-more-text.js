@@ -52,7 +52,7 @@ $(".read-less-btn").click(function() {
     $(".thr_dots").removeClass("hidden");
     $(".more_paragr").removeClass("show");
     $(".read-less-btn").removeClass("show");
-    $(window).scrollTop(scrollPosition); // Restore the scroll position
+    $(window).scrollTop(scrollPosition2); // Restore the scroll position
 });
 
 
@@ -74,7 +74,7 @@ $(".read-less-btn1").click(function() {
     $(".thr_dots1").removeClass("hidden");
     $(".more_paragr1").removeClass("show");
     $(".read-less-btn1").removeClass("show");
-    $(window).scrollTop(scrollPosition1); // Restore the scroll position
+    $(window).scrollTop(scrollPosition3); // Restore the scroll position
 });
 
 
