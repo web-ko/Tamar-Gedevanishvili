@@ -1937,6 +1937,11 @@ button svg g, button svg polyline{
         min-height: 100vh;
     }
 }
+@media(max-width: 360px) and (max-height: 740px){
+    .css-rk0vpo {
+        min-height: 100vh;
+    }
+}
 @media(max-width: 344px) and (max-height: 882px){
     .css-rk0vpo {
         min-height: 97vh;
