@@ -1927,14 +1927,14 @@ button svg g, button svg polyline{
         min-height: 100vh;
     }
 }
+@media(max-width: 390px) and (max-height: 800px){
+    .css-rk0vpo {
+        min-height: 93vh;
+    }
+}
 @media(max-width: 375px) and (max-height: 667px){
     .css-rk0vpo {
         min-height: 100vh;
-    }
-}
-@media(max-width: 360px) and (max-height: 800px){
-    .css-rk0vpo {
-        min-height: 93vh;
     }
 }
 @media(max-width: 344px) and (max-height: 882px){
