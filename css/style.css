@@ -2586,9 +2586,6 @@ body:not(.ie):not(.unknown) .flourish-corner {
     .biography-gallery .bio_container_col {
         margin-top: 5rem;
     }
-    .bio_container-new .bio_container_col h3 {
-        margin-bottom: 7rem;
-    }
 }
 @media(max-width: 767px){
     .video-wrapper-new .video iframe {
