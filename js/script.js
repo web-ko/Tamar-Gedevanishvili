@@ -340,10 +340,32 @@ document.addEventListener("DOMContentLoaded", function () {
     slides.forEach(slide => swiperContainer.appendChild(slide));
 
     // Initialize Swiper
+    // var swiper = new Swiper('.swiper', {
+    //     speed: 1200,
+    //     autoplay: {
+    //         delay: 3000,
+    //         disableOnInteraction: false, // <- THIS KEEPS AUTOPLAY AFTER INTERACTION
+    //     },
+    //     transitionTimingFunction: 'cubic-bezier(x1, y1, x2, y2)',
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true,
+    //     },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev'
+    //     },
+    //     loop: true,
+    //     parallax: true,
+    //     simulateTouch: true,
+    //     grabCursor: true,
+    // });
+
     var swiper = new Swiper('.swiper', {
         speed: 1200,
         autoplay: {
             delay: 3000,
+            disableOnInteraction: false,
         },
         transitionTimingFunction: 'cubic-bezier(x1, y1, x2, y2)',
         pagination: {
@@ -358,7 +380,15 @@ document.addEventListener("DOMContentLoaded", function () {
         parallax: true,
         simulateTouch: true,
         grabCursor: true,
+        on: {
+            setTransition(swiper, duration) {
+                swiper.slides.forEach(slide => {
+                    slide.style.transitionTimingFunction = 'cubic-bezier(0.25, 0.1, 0.25, 0.88)';
+                });
+            }
+        }
     });
+
 
     // Add custom click handler for the entire pagination container
     const paginationContainer = document.querySelector('.swiper-pagination');
