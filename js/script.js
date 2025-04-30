@@ -380,11 +380,17 @@ document.addEventListener("DOMContentLoaded", function () {
         parallax: true,
         simulateTouch: true,
         grabCursor: true,
-        on: {
+        /*on: {
             setTransition(swiper, duration) {
                 swiper.slides.forEach(slide => {
                     slide.style.transitionTimingFunction = 'cubic-bezier(0.25, 0.1, 0.25, 0.88)';
                 });
+            }
+        }*/
+        on: {
+            setTransition(swiper, duration) {
+                const wrapperEl = swiper.wrapperEl;
+                wrapperEl.style.transitionTimingFunction = 'cubic-bezier(0.25, 0.1, 0.25, 0.88)';
             }
         }
     });
