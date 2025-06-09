@@ -2832,9 +2832,9 @@ body:not(.ie):not(.unknown) .flourish-corner {
     margin: 0 0.3rem;
     text-decoration: none;
 }
-.improper_gallery-back span::before{
+.improper_gallery-back span::before {
     content: ">";
-    font-family: 'Euphemia', sans-serif;
+    font-family: 'Euphemia' !important;
     font-weight: normal;
     font-style: normal;
 }
