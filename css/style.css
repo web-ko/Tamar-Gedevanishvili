@@ -2835,6 +2835,8 @@ body:not(.ie):not(.unknown) .flourish-corner {
 .improper_gallery-back span::before{
     content: ">";
     font-family: 'Euphemia';
+    font-weight: normal;
+    font-style: normal;
 }
 .container-fluid.improper_gallery-back{
     max-width: 94%;
