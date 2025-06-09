@@ -2769,6 +2769,7 @@ body:not(.ie):not(.unknown) .flourish-corner {
 }
 .swiper-text h3{
     font-size: 2.25rem;
+    text-transform: uppercase;
     color: #fff;
 }
 .swiper-text h5{
