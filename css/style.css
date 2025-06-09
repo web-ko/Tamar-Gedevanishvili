@@ -2834,7 +2834,7 @@ body:not(.ie):not(.unknown) .flourish-corner {
 }
 .improper_gallery-back span::before{
     content: ">";
-    font-family: 'Euphemia';
+    font-family: 'Euphemia', sans-serif;
     font-weight: normal;
     font-style: normal;
 }
