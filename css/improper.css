@@ -5,13 +5,6 @@
 * Browsers: last 4 version
 */
 
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 @media(min-width: 768px){
     .inter_head .container{
         max-width: 720px;
@@ -81,6 +74,7 @@
     margin-bottom: .5rem;
     font-size: 1.7rem;
     color: #000;
+    text-transform: uppercase;
 }
 .forGallery{
     display: -webkit-box;
@@ -95,10 +89,12 @@
     margin-bottom: 0;
     /*padding: .7rem .9rem .7rem .9rem;*/
     padding: 0;
-    font-family: "Segoe UI This";
+    font-family: "Lato";
+    /*font-family: "Segoe UI This";*/
     font-weight: bold;
     font-style: normal;
     font-size: .9rem;
+    text-transform: uppercase;
     color: #0064ff;
     /*background-color: #f7f7f7;*/
     background-color: transparent;
@@ -124,7 +120,7 @@
     -webkit-transform: rotateZ(270deg);
         -ms-transform: rotate(270deg);
             transform: rotateZ(270deg);
-    top: 6px;
+    top: 4px;
     right: -17px;
 }
 /*end of for new improper*/

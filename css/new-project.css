@@ -5,12 +5,6 @@
 * Browsers: last 4 version
 */
 
-/*.water-2-h-h6, .gouache-2-h-h6, .pastel-2-h-h6, .graphic-2-h-h6, .engrave-2-h-h6, .sculp-2-2-h-h6 {
-    color: #000;
-    padding-top: 1rem;
-    margin-bottom: 0;
-    font-family: var(--font-default);
-}*/
 .water-2-h-h6:nth-child(2) {
     padding-top: .4rem;
     font-size: .75rem;
@@ -20,7 +14,7 @@
 }
 .water-2-h-h6:nth-child(3) {
     padding-top: 0;
-    font-size: .75rem;
+    font-size: .95rem;
     font-weight: 400;
     color: #000;
     /*color: rgba(121, 121, 121, 1);*/
