@@ -2844,3 +2844,8 @@ body:not(.ie):not(.unknown) .flourish-corner {
 .improper_gallery-back {
     padding-left: 1rem;
 }
+@media(max-width: 414px){
+    .container-fluid.improper_gallery-back{
+        line-height: 1.4;
+    }
+}
