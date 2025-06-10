@@ -742,7 +742,16 @@
 	<script type="text/javascript" src="js/script.js"></script>
 
 	<script type="text/javascript">
-		document.fonts.onloadingerror = (event) => console.log('Font loading error:', event);
+		document.fonts.ready.then(() => {
+		    const isLoaded = document.fonts.check("16px Euphemia");
+		    console.log(`Euphemia font loaded: ${isLoaded}`);
+		    if (!isLoaded) {
+		        console.log("Euphemia font failed to load.");
+		    }
+		});
+		document.fonts.onloadingerror = (event) => {
+		    console.log("Font loading error:", event);
+		};
 	</script>
 
 
