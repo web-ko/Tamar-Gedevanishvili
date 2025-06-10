@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'Euphemia';
     src: url('../fonts/Euphemia.woff2') format('woff2'),
          url('../fonts/Euphemia.woff') format('woff'),
@@ -6,19 +6,16 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
-/*@font-face {
-    font-family: 'Euphemia';
-    src: url('../fonts/Euphemia.eot');
-    src: url('../fonts/Euphemia.eot') format('embedded-opentype'),
-         url('../fonts/Euphemia.woff2') format('woff2'),
-         url('../fonts/Euphemia.woff') format('woff'),
-         url('../fonts/Euphemia.ttf') format('truetype'),
-         url('../fonts/Euphemia.svg#Euphemia') format('svg');
+}*/
+@font-face {
+    font-family: 'euphemia';
+    src: url('../fonts/euphemia.woff2') format('woff2'),
+         url('../fonts/euphemia.woff') format('woff'),
+         url('../fonts/euphemia.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}*/
+}
 /*@font-face {
     font-family: 'Lato';
     src: url('../fonts/Lato-Regular.eot');
