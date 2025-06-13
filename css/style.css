@@ -3050,7 +3050,7 @@ section.bio:last-of-type p:last-of-type {
 }
 @media(max-width: 575px){
     .biography-main {
-        padding: 140px 0px;
+        padding: 0px 0px;
     }
     .center-blk{
         width: 90%;
