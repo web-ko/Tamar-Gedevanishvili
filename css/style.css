@@ -2979,7 +2979,7 @@ section.bio:last-of-type p:last-of-type {
         background-image: url('../img/tam 01.webp');
         background-position: center center!important;
     }
-    .biogr-page .read-more-click {
+    .biogr-page .read-more-click, .read-less-click.show {
         margin-bottom: 3.75rem;
     }
 }
