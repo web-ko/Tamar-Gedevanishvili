@@ -3088,7 +3088,11 @@ section.bio:last-of-type p:last-of-type {
     font-weight: 300;
     color: #b35316;
 }
-
+footer .container .row{
+    width: auto;
+    clear: none;
+    float: none;
+}
 
 
 
