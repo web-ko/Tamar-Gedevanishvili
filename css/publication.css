@@ -104,6 +104,20 @@
     text-align: left!important;
     font-style: normal!important;
 }
+.publication-read span{
+    font-family: "Lato";
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.publication-read span:hover{
+    color: #b35316;
+}
 /*@media(min-width: 1200px){
     .read_more{
         position: relative;
