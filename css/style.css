@@ -1498,7 +1498,7 @@ footer p{
         --bs-gutter-x: 2.5rem;
     }
     p, .under_title, .fiesta_head .under_title{
-        font-size: .875rem;
+        /*font-size: .875rem;*/
     }
     .inter_head h2, .our_head h2, .connections_head h2, .free_city_head h2, .work-gallery h2, .title_graphic_impr {
         font-size: 1.5rem;
@@ -3092,6 +3092,9 @@ footer .container .row{
     width: auto;
     clear: none;
     float: none;
+}
+.read-more-a a{
+    font-weight: bold;
 }
 
 
