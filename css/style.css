@@ -1233,7 +1233,7 @@ footer p{
         z-index: 9999;
         /*padding-right: 10px;*/
         padding-right: 0;
-        margin-right: -6px;
+        margin-right: -4px;
     }
     .navbar ul {
         position: absolute;
