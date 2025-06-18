@@ -2911,7 +2911,7 @@ body:not(.ie):not(.unknown) .flourish-corner {
     position: absolute;
     /* left: -30px; */
     left: -40px;
-    top: -49px;
+    top: -46px;
     /* top: -27px; */
     font-family: "Lato";
     /* font-family: "Arial"; */
@@ -3031,7 +3031,7 @@ section.bio:last-of-type p:last-of-type {
         content: "“";
         position: absolute;
         left: -6px;
-        top: -49px;
+        top: -46px;
         font-size: 8rem;
         font-style: normal;
     }
@@ -3070,7 +3070,7 @@ section.bio:last-of-type p:last-of-type {
         content: "“";
         position: absolute;
         left: -5px;
-        top: -33px;
+        top: -35px;
         font-size: 6rem;
         font-style: normal;
     }
