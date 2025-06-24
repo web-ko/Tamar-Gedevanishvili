@@ -3106,7 +3106,10 @@ footer .container .row{
 .bio-img-a{
     z-index: 1;
 }
-
+.home-page-css button:hover, .home-page-css input[type="button"]:hover, .home-page-css input[type="reset"]:hover, .home-page-css input[type="submit"]:hover {
+    background: transparent;
+    color: #FFF;
+}
 
 
 
