@@ -409,7 +409,7 @@ footer .container{
     padding-right: 3rem;
     color: #fff;
 }
-footer .container .row div:nth-child(2){
+/*footer .container .row div:nth-child(2){
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -420,7 +420,7 @@ footer .container .row div:nth-child(2){
 footer a{
     color: #fff;
     text-decoration: none;
-}
+}*/
 footer ul li{
     font-family: "Lato";
     /*font-family: "Segoe UI This";*/
@@ -428,9 +428,9 @@ footer ul li{
     font-style: normal;
     font-size: .9rem;
 }
-footer ul li:nth-child(3){
+/*footer ul li:nth-child(3){
     margin-top: 3rem;
-}
+}*/
 .footer{
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -3190,6 +3190,70 @@ footer .container .row{
 }
 
 
+
+@media(min-width: 1293px){
+    footer .container {
+        width: 81%;
+    }
+    footer .container .row{
+        padding-left: 4vw;
+    }
+}
+@media(min-width: 1406px){
+    footer .container .row{
+        padding-left: 4.1vw;
+    }
+}
+@media(min-width: 1600px){
+    footer .container .row{
+        padding-left: 6vw;
+    }
+}
+@media(max-width: 1292px){
+    footer .container .row{
+        padding-left: 4vw;
+    }
+}
+
+
+footer .title-home{
+    margin: 0 0 1em;
+}
+.footer-link{
+    margin-top: 0;
+    color: #9b9b9b;
+}
+.footer-link a{
+    color: #9b9b9b;
+    -webkit-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+.footer-link.inst-face{
+    margin-top: 3rem;
+}
+.footer-link a:hover{
+    color: #fff;
+}
+/*footer h5 {
+    font-size: 1rem;
+}*/
+footer ul li {
+    /*font-size: .95rem;*/
+}
+.fa-brands.fa-instagram, .fa-brands.fa-facebook{
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.fa-brands.fa-instagram:hover, .fa-brands.fa-facebook:hover{
+    color: #fff;
+}
+.footer-copy{
+    margin-top: 5rem;
+    font-size: 0.95rem;
+    color: #9b9b9b;
+}
 
 
 
