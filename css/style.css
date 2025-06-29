@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fixed-top{
     padding: 0.9375rem 0.9375rem;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 /*.burger{
     -webkit-box-align: end!important;
@@ -102,6 +102,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     z-index: 1111;
     pointer-events: all;
+}
+.header svg{
+    width: auto;
+    height: 40px;
+    fill: #000;
 }
 /*.landing-page{
     -webkit-box-pack: center;
@@ -2259,6 +2264,17 @@ button svg g, button svg polyline{
     -o-transition: opacity 0.3s 0.3s ease-out;
     transition: opacity 0.3s 0.3s ease-out;
 }
+.swiper-overlay-top{
+    position: absolute;
+    width: 100%;
+    height: 208px;
+    top: 0;
+    z-index: 1;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0)));
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    pointer-events: none;
+}
 .swiper-overlay{
     position: absolute;
     width: 100%;
@@ -3109,6 +3125,68 @@ footer .container .row{
 .home-page-css button:hover, .home-page-css input[type="button"]:hover, .home-page-css input[type="reset"]:hover, .home-page-css input[type="submit"]:hover {
     background: transparent;
     color: #FFF;
+}
+
+
+
+/*nav scroll*/
+@media(min-width: 1280px){
+    .home-page-css .navbar a, .home-page-css .navbar li:hover>a{
+        color: #fff;
+    }
+    .home-page-css .scrolled-nav .navbar a, .home-page-css .scrolled-nav .navbar li:hover>a{
+        color: #000;
+    }
+    .home-page-css .scrolled-nav .navbar a, .scrolled-nav .home-page-css .navbar li:hover>a{
+        color: #000;
+    }
+    .home-page-css .navbar>ul>li>a:before{
+        background-color: #fff;
+    }
+    .home-page-css .scrolled-nav .navbar>ul>li>a:before{
+        background-color: #000;
+    }
+    
+}
+.home-page-css .index-container.for_border{
+    border-bottom: none;
+}
+.home-page-css .index-container.for_border.scrolled-nav{
+    border-bottom: 1px solid #d9d9d9;
+}
+.home-page-css .index-container .fixed-top{
+    background-color: transparent;
+}
+.home-page-css .index-container.for_background{
+    background-color: transparent;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.home-page-css .index-container.for_background.scrolled-nav{
+    background: #fff;
+}
+.home-page-css .mobile-nav-show{
+    color: #fff;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.home-page-css .scrolled-nav .mobile-nav-show{
+    color: #000;
+}
+.home-page-css .mobile-nav-hide{
+    color: #000;
+}
+
+.home-page-css .header svg{
+    fill: #fff;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.home-page-css .header .scrolled-nav svg{
+    fill: #000;
 }
 
 
