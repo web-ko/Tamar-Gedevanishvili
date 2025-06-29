@@ -184,6 +184,10 @@ $(window).scroll(function(){
 
 // end of trigger-icon
 
+$(window).scroll(function(){
+    $(".home-page-css .index-container").toggleClass("scrolled-nav", $(this).scrollTop() > 200);
+});
+
 
 
 Fancybox.bind("[data-fancybox]",{
