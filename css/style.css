@@ -3214,6 +3214,14 @@ footer .container .row{
         padding-left: 4vw;
     }
 }
+@media(max-width: 575px){
+    footer .container{
+        padding-left: 0;
+    }
+    footer .container .row{
+        padding-left: 1.3rem;
+    }
+}
 
 
 footer .title-home{
@@ -3225,8 +3233,6 @@ footer .title-home{
 }
 .footer-link a{
     color: #9b9b9b;
-    -webkit-transition: 0.25s;
-    -o-transition: 0.25s;
     transition: 0.25s;
 }
 .footer-link.inst-face{
@@ -3242,8 +3248,6 @@ footer ul li {
     /*font-size: .95rem;*/
 }
 .fa-brands.fa-instagram, .fa-brands.fa-facebook{
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .fa-brands.fa-instagram:hover, .fa-brands.fa-facebook:hover{
@@ -3251,7 +3255,8 @@ footer ul li {
 }
 .footer-copy{
     margin-top: 5rem;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    font-weight: normal;
     color: #9b9b9b;
 }
 
