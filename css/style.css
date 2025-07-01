@@ -3238,7 +3238,11 @@ footer .container .row{
         padding-left: 1.3rem;
     }
 }*/
-
+@media(max-width: 575px){
+    footer .container{
+        padding-left: 1.3rem;
+    }
+}
 
 footer .title-home{
     margin: 0 0 1em;
