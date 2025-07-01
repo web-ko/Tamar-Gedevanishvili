@@ -3279,3 +3279,8 @@ footer ul li {
     font-weight: normal;
     color: #9b9b9b;
 }
+@media(max-width: 991px){
+    .footer-link.inst-face {
+        margin-top: 1.3rem;
+    }
+}
