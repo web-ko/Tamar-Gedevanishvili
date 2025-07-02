@@ -3284,3 +3284,95 @@ footer ul li {
         margin-top: 1.3rem;
     }
 }
+/* new contact */
+.title_contact {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+    text-align: left;
+    color: #000;
+}
+.contact-gallery-new .container{
+    margin-top: 5rem;
+}
+.contact-text p{
+    padding-top: 5rem;
+    line-height: 1.7;
+}
+.fa-brands.fa-instagram{
+    font-size: 1.6rem;
+    -webkit-transform: translateY(0.8px);
+        -ms-transform: translateY(0.8px);
+            transform: translateY(0.8px);
+}
+.fa-brands.fa-facebook{
+    font-size: 1.5rem;
+}
+.contact-gallery-new .fa-brands.fa-instagram:hover, .contact-gallery-new .fa-brands.fa-facebook:hover {
+    color: #858585;
+}
+.contact-gallery-new img{
+    width: 100%;
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+}
+.fnt-family{
+    color: #364d59;
+}
+.fnt-family a{
+    color: #364d59;
+}
+@media(min-width: 576px){
+    .contact-gallery-new .text-position {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: right;
+            -ms-flex-pack: right;
+                justify-content: right;
+    }
+}
+@media(min-width: 992px){
+    .contact-gallery-new .container .row{
+    --bs-gutter-x: 3.5rem;
+    }
+}
+@media(max-width: 1199px){
+    .contact-text p {
+        padding-top: 0rem; 
+    }
+}
+@media(max-width: 991px){
+    .contact-gallery-new .container{
+        max-width: 95%;
+    }
+    .contact-text p {
+        padding-top: 0rem; 
+    }
+}
+@media(min-width: 576px) and (max-width: 850px){
+    .contact-gallery-new .col-text{
+        max-height: 161px;
+        overflow-y: scroll;
+    }
+}
+@media(max-width: 744px){
+    .contact-gallery-new .container{
+        max-width: 95%;
+    }
+    .contact-text p {
+        padding-top: 0rem; 
+    }
+}
+@media(max-width: 575px){
+    .contact-gallery-new .col-text{
+        margin-bottom: 2rem;
+    }
+    .title_contact {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+    .contact-gallery-new .text-position{
+        margin-top: -3rem;
+    }
+}
