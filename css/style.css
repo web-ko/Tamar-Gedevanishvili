@@ -3699,9 +3699,9 @@ footer ul li {
 
     .video_text-next h3 {
         margin-top: 1rem;
-        padding-left: 3rem;
+        /*padding-left: 3rem;*/
     }
-    .video_text-next h3:before {
+    /*.video_text-next h3:before {
         content: "";
         position: absolute;
         width: 35px;
@@ -3712,7 +3712,7 @@ footer ul li {
     }
     .video_text-next h5, .video_text-next p, .video_text-next a {
         padding-left: 3rem;
-    }
+    }*/
 }
 @media(max-width: 575px){
     .container.container-scroll{
