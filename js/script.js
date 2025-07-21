@@ -179,7 +179,7 @@ $('a[href^="#trigger-icon').on("click", function(){
 
 
 $(window).scroll(function(){
-    $(".trigger-icon").toggleClass("scrolled", $(this).scrollTop() > 500);
+    $(".trigger-icon").toggleClass("scrolled", $(this).scrollTop() > 3500);
 });
 
 // end of trigger-icon
