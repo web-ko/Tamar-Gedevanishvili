@@ -2965,7 +2965,8 @@ section.bio:last-of-type p:last-of-type {
     text-underline-offset: 5px;
 }
 .biogr-page a span:hover {
-    color: #b35316;
+    /*color: #b35316;*/
+    color: #5d5d5d;
 }
 .has-flourish-second{
     font-size: 30px;
