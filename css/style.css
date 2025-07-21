@@ -1635,53 +1635,55 @@ footer p{
 }
 
 /*trigger-icon*/
-.trigger-container{
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    z-index: 11;
-    -webkit-transition: all .4s linear;
-    -o-transition: all .4s linear;
-    transition: all .4s linear;
-}
-.trigger-icon{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background: #fff;
-    right: 52px;
-    bottom: 2vh;
-    cursor: pointer;
-    opacity: 0;
-    padding: 10px 15px 10px 15px;
-    position: fixed;
-    -webkit-box-shadow: 0px 0px 5px rgba(127, 137, 161, 0.25);
-            box-shadow: 0px 0px 5px rgba(127, 137, 161, 0.25);
-    /*box-shadow: 0px 0px 32px rgba(127, 137, 161, 0.25);*/
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    -webkit-transition: all .4s linear;
-    -o-transition: all .4s linear;
-    transition: all .4s linear;
-}
-.trigger-icon.scrolled{
-    opacity: 1;
-}
-.trigger-container a{
-    color: #000;
-}
-.trigger-icon svg{
-    -webkit-transform: scale(-1);
-        -ms-transform: scale(-1);
-            transform: scale(-1);
+@media(min-width: 1274px){
+    .trigger-container{
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: right;
+            -ms-flex-pack: right;
+                justify-content: right;
+        z-index: 11;
+        -webkit-transition: all .4s linear;
+        -o-transition: all .4s linear;
+        transition: all .4s linear;
+    }
+    .trigger-icon{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background: #fff;
+        right: 52px;
+        bottom: 2vh;
+        cursor: pointer;
+        opacity: 0;
+        padding: 10px 15px 10px 15px;
+        position: fixed;
+        -webkit-box-shadow: 0px 0px 5px rgba(127, 137, 161, 0.25);
+                box-shadow: 0px 0px 5px rgba(127, 137, 161, 0.25);
+        /*box-shadow: 0px 0px 32px rgba(127, 137, 161, 0.25);*/
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        -webkit-transition: all .4s linear;
+        -o-transition: all .4s linear;
+        transition: all .4s linear;
+    }
+    .trigger-icon.scrolled{
+        opacity: 1;
+    }
+    .trigger-container a{
+        color: #000;
+    }
+    .trigger-icon svg{
+        -webkit-transform: scale(-1);
+            -ms-transform: scale(-1);
+                transform: scale(-1);
+    }
 }
 /*end of trigger-icon*/
 
