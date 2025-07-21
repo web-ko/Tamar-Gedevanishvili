@@ -453,6 +453,7 @@ footer ul li{
     font-weight: normal;
     font-style: normal;
     font-size: .95rem;
+    color: #000;
 }
 .concept_title1{
     margin-top: 1rem;
@@ -461,6 +462,7 @@ footer ul li{
     font-weight: normal;
     font-style: normal;
     font-size: .95rem;
+    color: #000;
 }
 /*bdo{
     color: red;
@@ -533,6 +535,7 @@ footer ul li{
     font-style: normal;
     font-size: .95rem;
     text-align: right;
+    color: #000;
 }
 .concept{
     font-family: "Lato";
