@@ -2976,7 +2976,7 @@ section.bio:last-of-type p:last-of-type {
 }
 .biogr-page .read-more-a a:hover {
     /*color: #b35316;*/
-    color: #0064ff;
+    color: #5698ff;
     /* color: #000; */
     text-decoration: none;
 }
@@ -3111,11 +3111,11 @@ footer .container .row{
 }
 .forGallery a span:hover, .public_head .col-12:nth-child(2) a p:hover, .public_head .row .col-12:nth-child(4) p:nth-child(1):hover, .public_head .row .col-12:nth-child(5) a p:hover{
     /*color: #b35316;*/
-    color: #0064ff;
+    color: #5698ff;
 }
 .forGallery a span:hover::after{
     /*border-top: 10px solid #b35316;*/
-    border-top: 10px solid #0064ff;
+    border-top: 10px solid #5698ff;
 }
 .read-more-a a{
     font-weight: bold;
