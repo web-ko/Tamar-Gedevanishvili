@@ -1657,7 +1657,7 @@ footer p{
             -ms-flex-align: center;
                 align-items: center;
         background: #fff;
-        right: 52px;
+        right: 0px;
         bottom: 2vh;
         cursor: pointer;
         opacity: 0;
@@ -1685,6 +1685,7 @@ footer p{
                 transform: scale(-1);
     }
 }
+
 /*end of trigger-icon*/
 
 /*როცა მინდა ორჯერ გავზარდო სურათი*/
@@ -2371,20 +2372,11 @@ button svg g, button svg polyline{
 .index-container .container{
     max-width: 94%
 }
-.biography-photo{
-    /*height: 600px;*/
-    height: 734px;
-    overflow: hidden;
-}
-.biography-photo img{
-    -o-object-fit: cover;
-       object-fit: cover;
-    -webkit-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-            transform: scale(1.5);
-    -o-object-position: -100px 28%;
-       object-position: -100px 28%;
-}
+/*.biography-photo img{
+    object-fit: cover;
+    transform: scale(1.5);
+    object-position: -100px 28%;
+}*/
 .bio_container-new a{
     color: #000;
 }
@@ -2851,17 +2843,13 @@ body:not(.ie):not(.unknown) .flourish-corner {
         left: 20px;
     }
 }
-@media(max-width: 450px){
+/*@media(max-width: 450px){
     .biography-photo img {
-        -o-object-fit: cover;
-           object-fit: cover;
-        -webkit-transform: scale(1.5);
-            -ms-transform: scale(1.5);
-                transform: scale(1.5);
-        -o-object-position: 100%;
-           object-position: 100%;
+        object-fit: cover;
+        transform: scale(1.5);
+        object-position: 100%;
     }
-}
+}*/
 .read-more p span{
     font-style: italic;
 }
@@ -2978,12 +2966,6 @@ section.bio:last-of-type p:last-of-type {
 }
 .bio_container-new .text17 a {
     color: #b35316;
-}
-.biogr-page .read-more-a a:hover {
-    /*color: #b35316;*/
-    color: #5698ff;
-    /* color: #000; */
-    text-decoration: none;
 }
 .biogr-page .read-more .upper{
     text-transform: uppercase;
@@ -3125,6 +3107,10 @@ footer .container .row{
 .read-more-a a{
     font-weight: bold;
     color: #0064ff;
+}
+.home-page-css .read-more-a a:hover{
+    font-weight: bold;
+    color: #5698ff;
 }
 .bio-img-a{
     z-index: 1;
@@ -3559,9 +3545,6 @@ footer ul li {
         height: auto;
         overflow-y: hidden;
     }
-    .video_text-next h3 {
-        margin-top: 1rem;
-    }
 }
 .video_text-next a {
     margin-top: 1rem;
@@ -3610,19 +3593,38 @@ footer ul li {
     /*color: #b35316;*/
     color: #000;
 }
-.biography-photo {
+/*@media(min-width: 1920px){
+    .title-biogr{
+        font-size: 2.0788vw;
+    }
+    .left-content p{
+        font-size: .792vw;
+    }
+    .biography-photo-text h2{
+        font-size: 1.304vw;
+    }
+    .biography-photo-text h3{
+        font-size: .835vw;
+    }
+}
+@media(min-width: 6000px){
+    .biography-photo-text h2{
+        font-size: 1vw;
+    }
+    .biography-photo-text h3{
+        font-size: .635vw;
+    }
+}*/
+
+/*.biography-photo {
     height: unset;
     overflow: visible;
-}
-.biography-photo img {
-    -o-object-fit: unset;
-       object-fit: unset;
-    -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-            transform: scale(1);
-    -o-object-position: unset;
-       object-position: unset;
-}
+}*/
+/*.biography-photo img {
+    object-fit: unset;
+    transform: scale(1);
+    object-position: unset;
+}*/
 .left-content.sticky{
     top: 100px!important;
 }
@@ -3711,7 +3713,6 @@ footer ul li {
         padding-right: 1.5rem;
         padding-left: 1.5rem;
     }
-
     .video_text-next h3 {
         margin-top: 1rem;
         /*padding-left: 3rem;*/
@@ -3757,6 +3758,118 @@ footer ul li {
 }
 
 
+
+
+
+
+
+/* sticky */
+.new-home {
+    padding-bottom: 1.5rem;
+}
+.container-bio{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+@media(min-width: 992px){
+    .container-bio-row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 1106px;
+        -webkit-column-gap: 60px;
+           -moz-column-gap: 60px;
+                column-gap: 60px;
+    }
+}
+@media(min-width: 1200px){
+    .container-bio-row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 1128px;
+        -webkit-column-gap: 60px;
+           -moz-column-gap: 60px;
+                column-gap: 60px;
+    }
+}
+@media(min-width: 1400px){
+    .container-bio-row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 1294px;
+        -webkit-column-gap: 60px;
+           -moz-column-gap: 60px;
+                column-gap: 60px;
+    }
+}
+.right-content{
+    position: sticky;
+    top: 10px;
+    padding-top: 5.5rem;
+    height: calc(1227px - 20%);
+}
+.left-content{
+    padding-top: 5rem;
+}
+.biography-photo img{
+    width: 100%;
+}
+.title-biogr {
+    margin-top: 0;
+}
+@media(max-width: 991px){
+    .container-bio-row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .right-content{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-top: 5rem;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .left-content{
+        width: 100%;
+        padding-top: 0;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+}
+@media(max-width: 575px){
+    .container-bio {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.left-content .read-more-click a, .left-content .read-less-click a {
+    color: #000;
+}
+.left-content a span{
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.left-content a span:hover{
+    color: #5d5d5d;
+}
 
 
 
