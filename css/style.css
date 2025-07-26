@@ -3515,7 +3515,7 @@ footer ul li {
     text-underline-offset: 5px;
     color: #000;
 }
-.video_text-next .btn .btn-txt:hover {
+.video_text-next .btn .btn-txt:hover, .improper_gallery-back a:hover{
     color: #5d5d5d;
 }
 @media(min-width: 992px) and (max-width: 1399px){
