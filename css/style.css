@@ -3586,6 +3586,7 @@ footer ul li {
     color: #000;
 }
 .biography-photo-text h3{
+    margin-bottom: .75rem;
     font-size: 1rem;
     text-align: right;
     font-family: 'Lato';
@@ -3814,7 +3815,10 @@ footer ul li {
     position: sticky;
     top: 10px;
     padding-top: 5.5rem;
-    height: calc(1227px - 20%);
+    /*height: calc(1227px - 20%);*/
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
 }
 .left-content{
     padding-top: 5rem;
