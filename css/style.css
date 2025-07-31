@@ -3085,9 +3085,10 @@ section.bio:last-of-type p:last-of-type {
 }
 .video-wrapper-new h1 {
     margin-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     font-family: "Lato";
-    font-weight: 300;
+    font-weight: 400;
+    text-transform: uppercase;
     /*color: #b35316;*/
     color: #000;
 }
@@ -3353,9 +3354,6 @@ footer ul li {
         overflow-y: scroll;
     }*/
 }
-.video-wrapper-new h1 {
-    margin-bottom: 3rem;
-}
 .video_text-next h3{
     position: relative;
     margin-top: 2rem;
@@ -3515,7 +3513,7 @@ footer ul li {
     text-underline-offset: 5px;
     color: #000;
 }
-.video_text-next .btn .btn-txt:hover, .improper_gallery-back a:hover{
+.video_text-next .btn .btn-txt:hover, .improper_gallery-back a:hover {
     color: #5d5d5d;
 }
 @media(min-width: 992px) and (max-width: 1399px){
@@ -3569,19 +3567,19 @@ footer ul li {
 }
 .biography-photo-text h2{
     font-family: 'Lato';
-    font-size: 1.5625rem;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 400;
     font-style: normal;
-    /*color: #b35316;*/
-    color: #000;
+    color: #b35316;
+    /*color: #000;*/
 }
 .title-biogr{
-    margin-top: -1rem;
     margin-bottom: 1.7rem;
     font-family: 'Lato';
-    font-size: 2.5rem;
-    font-weight: 300;
+    font-size: 1.7rem;
+    font-weight: 400;
     font-style: normal;
+    text-transform: uppercase;
     /*color: #b35316;*/
     color: #000;
 }
@@ -3590,9 +3588,9 @@ footer ul li {
     font-size: 1rem;
     text-align: right;
     font-family: 'Lato';
-    font-weight: 300;
-    /*color: #b35316;*/
-    color: #000;
+    font-weight: 400;
+    color: #b35316;
+    /*color: #000;*/
 }
 /*@media(min-width: 1920px){
     .title-biogr{
@@ -3826,9 +3824,9 @@ footer ul li {
 .biography-photo img{
     width: 100%;
 }
-.title-biogr {
+/*.title-biogr {
     margin-top: 0;
-}
+}*/
 @media(max-width: 991px){
     .container-bio-row{
         display: -webkit-box;
