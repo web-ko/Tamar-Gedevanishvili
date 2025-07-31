@@ -3570,8 +3570,8 @@ footer ul li {
     font-size: 1.5rem;
     font-weight: 400;
     font-style: normal;
-    color: #b35316;
-    /*color: #000;*/
+    /*color: #b35316;*/
+    color: #5d5d5d;
 }
 .title-biogr{
     margin-bottom: 1.7rem;
@@ -3589,8 +3589,8 @@ footer ul li {
     text-align: right;
     font-family: 'Lato';
     font-weight: 400;
-    color: #b35316;
-    /*color: #000;*/
+    /*color: #b35316;*/
+    color: #5d5d5d;
 }
 /*@media(min-width: 1920px){
     .title-biogr{
