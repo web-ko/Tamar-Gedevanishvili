@@ -3700,8 +3700,8 @@ footer .container .row{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
-    .title-biogr {
-        font-size: 1.875rem;
+    .title-biogr, .video-wrapper-new h1 {
+        font-size: 1.4rem;
     }
 }
 @media(max-width: 456px){
