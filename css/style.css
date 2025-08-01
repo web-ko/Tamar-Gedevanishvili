@@ -3700,7 +3700,7 @@ footer .container .row{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
-    .title-biogr, .video-wrapper-new h1 {
+    .title-biogr, .video-wrapper-new h1, .video_text-next h3 {
         font-size: 1.4rem;
     }
 }
