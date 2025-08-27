@@ -972,6 +972,9 @@ footer p{
     footer section{
         margin-top: 12rem;
     }
+    .contact-css footer section{
+        margin-top: 7rem;
+    }
 }
 @media(min-width: 1200px){
     .pic-aso .image, .guach-2 .image, .grav-1 .image, .sket-9 .image, .skulp-01 .image, .grav-11 .image, .akva-3 .image, .akva-18 .image, .guach-4 .image, .akva-21 .image, .inki-1 .image, .skulp-05 .image, .sket-27 .image, .grav-10 .image, .guaS-1 .image, .akva-10 .image, .inki .image, .grav-12 .image, .guach-1 .image, .grav-16 .image, .akva-16 .image, .skulp-04 .image, .inki-2 .image, .past-9 .image, .sket-1 .image, .guach-3 .image, .guash-2 .image, .skulp-03 .image, .akva-38 .image, .grav-18 .image, .guash-3 .image, .akva-5 .image, .guash-11 .image, .guashi-5 .image, .akva-26 .image, .skulp-06 .image, .akva-39 .image, .grav-19 .image, .guash-12 .image, .past-2 .image, .akva-44 .image, .guache-13 .image, .sket-14 .image, .fanq-12 .image, .akva-6 .image, .ka-ci .image, .akva-7 .image, .akv-14 .image, .akva-20 .image, .fanq-11 .image, .skulp-02 .image, .fanq-13 .image, .fanq-2 .image, .peni-3 .image, .peni-6 .image, .peni-7 .image, .color-penc-4 .image, .peni-13 .image, .sket-37 .image, .fanq-9 .image, .peni-18 .image, .sket-16 .image, .peni-10 .image, .sket-19 .image, .peni-2 .image, .peni-35 .image, .akva-45 .image, .peni-23 .image, .akva-67 .image, .grav-20 .image, .peni-17 .image, .guash-9 .image, .sket-24 .image, .guash-6 .image, .peni-32 .image, .akva-66 .image, .sket-3 .image, .peni-26 .image, .akva-25 .image, .sket-8 .image, .guash-4 .image, .peni-22 .image, .akva-40 .image, .peni-31 .image, .sket-4 .image, .akva-65 .image, .akva-37 .image, .sket-22 .image, .akva-63 .image, .sket-20 .image, .akva-60 .image, .akva-61 .image, .grav-15 .image, .sket-11 .image, .akva-64 .image, .grav-6 .image, .akva-11 .image, .sket-6 .image, .fanq-3 .image, .akva-46 .image, .guash-10 .image, .peni-5 .image, .akva-70 .image, .akva-59 .image, .guash-5 .image, .peni-33 .image, .akva-42 .image, .akva-41 .image, .akva-24 .image, .peni-12 .image, .akva-28 .image{
@@ -1397,6 +1400,9 @@ footer p{
     }
     footer section{
         margin-top: 8rem;
+    }
+    .contact-css footer section{
+        margin-top: 3.4rem;
     }
 }
 .connections_head .row .col-12:nth-child(5) p, .connections_head .row .col-12:nth-child(8) p, .free_city_head .row .col-12:nth-child(4) p, .free_city_head .row .col-12:nth-child(8) p, .free_city_head .row .col-12:nth-child(12) p, .kipsidze_head .row .col-12:nth-child(3) p, .kipsidze_head .row .col-12:nth-child(7) p, .fiesta_head .row .col-12:nth-child(5) p, .fiesta_head .row .col-12:nth-child(16) p, .our_head .row .col-12:nth-child(4) p, .our_head .row .col-12:nth-child(11) p, .renov_head .row .col-12:nth-child(8) p{
